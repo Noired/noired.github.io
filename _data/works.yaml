@@ -1,0 +1,137 @@
+-
+  title: Graph Neural Networks for Link Prediction with Subgraph Sketching
+  authors: Benjamin Paul Chamberlain*, Sergey Shirobokov*, Emanuele Rossi, Fabrizio Frasca, Thomas Markovich, Nils Hammerla, Michael M. Bronstein, Max Hansmire
+  abstract: "Many Graph Neural Networks (GNNs) perform poorly compared to simple heuristics on Link Prediction (LP) tasks. This is due to limitations in expressive power such as the inability to count triangles (the backbone of most LP heuristics) and because they can not distinguish automorphic nodes (those having identical structural roles). Both expressiveness issues can be alleviated by learning link (rather than node) representations and incorporating structural features such as triangle counts. Since explicit link representations are often prohibitively expensive, recent works resorted to subgraph-based methods, which have achieved state-of-the-art performance for LP, but suffer from poor efficiency due to high levels of redundancy between subgraphs. We analyze the components of subgraph GNN (SGNN) methods for link prediction. Based on our analysis, we propose a novel full-graph GNN called ELPH (Efficient Link Prediction with Hashing) that passes subgraph sketches as messages to approximate the key components of SGNNs without explicit subgraph construction. ELPH is provably more expressive than Message Passing GNNs (MPNNs). It outperforms existing SGNN models on many standard LP benchmarks while being orders of magnitude faster. However, it shares the common GNN limitation that it is only efficient when the dataset fits in GPU memory. Accordingly, we develop a highly scalable model, called BUDDY, which uses feature precomputation to circumvent this limitation without sacrificing predictive performance. Our experiments show that BUDDY also outperforms SGNNs on standard LP benchmarks while being highly scalable and faster than ELPH."
+  link: https://arxiv.org/abs/2209.15486
+  thumbnail: ./assets/thumbnails/elph.png
+  lead: False
+-
+  title: Understanding and Extending Subgraph GNNs by Rethinking Their Symmetries
+  authors: Fabrizio Frasca*, Beatrice Bevilacqua*, Michael M. Bronstein, Haggai Maron
+  abstract: "Subgraph GNNs are a recent class of expressive Graph Neural Networks (GNNs) which model graphs as collections of subgraphs. So far, the design space of possible Subgraph GNN architectures as well as their basic theoretical properties are still largely unexplored. In this paper, we study the most prominent form of subgraph methods, which employs node-based subgraph selection policies such as ego-networks or node marking and deletion. We address two central questions: (1) What is the upper-bound of the expressive power of these methods? and (2) What is the family of equivariant message passing layers on these sets of subgraphs?. Our first step in answering these questions is a novel symmetry analysis which shows that modelling the symmetries of node-based subgraph collections requires a significantly smaller symmetry group than the one adopted in previous works. This analysis is then used to establish a link between Subgraph GNNs and Invariant Graph Networks (IGNs). We answer the questions above by first bounding the expressive power of subgraph methods by 3-WL, and then proposing a general family of message-passing layers for subgraph methods that generalises all previous node-based Subgraph GNNs. Finally, we design a novel Subgraph GNN dubbed SUN, which theoretically unifies previous architectures while providing better empirical performance on multiple benchmarks."
+  venue: NeurIPS 2022
+  link: https://arxiv.org/abs/2206.11140
+  code: https://github.com/beabevi/sun
+  thumbnail: ./assets/thumbnails/sun.png
+  comment: Oral (1.7% acceptance rate)
+  lead: True
+-
+  title: Accurate and Highly Interpretable Prediction of Gene Expression from Histone Modifications
+  authors: Fabrizio Frasca, Matteo Matteucci, Michele Leone, Marco J. Morelli, Marco Masseroli
+  abstract: "Histone Mark Modifications (HMs) are crucial actors in gene regulation, as they actively remodel chromatin to modulate transcriptional activity: aberrant combinatorial patterns of HMs have been connected with several diseases, including cancer. HMs are, however, reversible modifications: understanding their role in disease would allow the design of ‘epigenetic drugs’ for specific, non-invasive treatments. Standard statistical techniques were not entirely successful in extracting representative features from raw HM signals over gene locations. On the other hand, deep learning approaches allow for effective automatic feature extraction, but at the expense of model interpretation. Here, we propose ShallowChrome, a novel computational pipeline to model transcriptional regulation via HMs in both an accurate and interpretable way. We attain state-of-the-art results on the binary classification of gene transcriptional states over 56 cell-types from the REMC database, largely outperforming recent deep learning approaches. We interpret our models by extracting insightful gene-specific regulative patterns, and we analyse them for the specific case of the PAX5 gene over three differentiated blood cell lines. Finally, we compare the patterns we obtained with the characteristic emission patterns of ChromHMM, and show that ShallowChrome is able to coherently rank groups of chromatin states w.r.t. their transcriptional activity. In this work we demonstrate that it is possible to model HM-modulated gene expression regulation in a highly accurate, yet interpretable way. Our feature extraction algorithm leverages on data downstream the identification of enriched regions to retrieve gene-wise, statistically significant and dynamically located features for each HM. These features are highly predictive of gene transcriptional state, and allow for accurate modeling by computationally efficient logistic regression models. These models allow a direct inspection and a rigorous interpretation, helping to formulate quantifiable hypotheses."
+  venue: BMC Bioinformatics (2022)
+  link: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04687-x
+  code: https://github.com/DEIB-GECO/ShallowChrome
+  thumbnail: ./assets/thumbnails/shallow.png
+  lead: True
+-
+  title: Equivariant Subgraph Aggregation Networks
+  authors: Beatrice Bevilacqua*, Fabrizio Frasca*, Derek Lim*, Balasubramaniam Srinivasan, Chen Cai, Gopinath Balamurugan, Michael M. Bronstein, Haggai Maron
+  abstract: "Message-passing neural networks (MPNNs) are the leading architecture for deep learning on graph-structured data, in large part due to their simplicity and scalability. Unfortunately, it was shown that these architectures are limited in their expressive power. This paper proposes a novel framework called Equivariant Subgraph Aggregation Networks (ESAN) to address this issue. Our main observation is that while two graphs may not be distinguishable by an MPNN, they often contain distinguishable subgraphs. Thus, we propose to represent each graph as a set of subgraphs derived by some predefined policy, and to process it using a suitable equivariant architecture. We develop novel variants of the 1-dimensional Weisfeiler-Leman (1-WL) test for graph isomorphism, and prove lower bounds on the expressiveness of ESAN in terms of these new WL variants. We further prove that our approach increases the expressive power of both MPNNs and more expressive architectures. Moreover, we provide theoretical results that describe how design choices such as the subgraph selection policy and equivariant neural architecture affect our architecture's expressive power. To deal with the increased computational cost, we propose a subgraph sampling scheme, which can be viewed as a stochastic version of our framework. A comprehensive set of experiments on real and synthetic datasets demonstrates that our framework improves the expressive power and overall performance of popular GNN architectures."
+  venue: ICLR 2022
+  link: https://arxiv.org/abs/2110.02910
+  code: https://github.com/beabevi/esan
+  post: https://towardsdatascience.com/using-subgraphs-for-more-expressive-gnns-8d06418d5ab
+  video: https://www.youtube.com/watch?v=VYZog7kbXks
+  thumbnail: ./assets/thumbnails/esan.png
+  comment: Spotlight (5% acceptance rate)
+  lead: True
+-
+  title: Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting
+  authors: Giorgos Bouritsas, Fabrizio Frasca, Stefanos Zafeiriou, Michael M. Bronstein
+  abstract: "While Graph Neural Networks (GNNs) have achieved remarkable results in a variety of applications, recent studies exposed important shortcomings in their ability to capture the structure of the underlying graph. It has been shown that the expressive power of standard GNNs is bounded by the Weisfeiler-Leman (WL) graph isomorphism test, from which they inherit proven limitations such as the inability to detect and count graph substructures. On the other hand, there is significant empirical evidence, e.g. in network science and bioinformatics, that substructures are often intimately related to downstream tasks. To this end, we propose \"Graph Substructure Networks\" (GSN), a topologically-aware message passing scheme based on substructure encoding. We theoretically analyse the expressive power of our architecture, showing that it is strictly more expressive than the WL test, and provide sufficient conditions for universality. Importantly, we do not attempt to adhere to the WL hierarchy; this allows us to retain multiple attractive properties of standard GNNs such as locality and linear network complexity, while being able to disambiguate even hard instances of graph isomorphism. We perform an extensive experimental evaluation on graph classification and regression tasks and obtain state-of-the-art results in diverse real-world settings including molecular graphs and social networks. The code is publicly available."
+  venue: IEEE TPAMI (2022)
+  link: https://arxiv.org/abs/2006.09252
+  code: https://github.com/gbouritsas/graph-substructure-networks
+  post: https://blog.twitter.com/engineering/en_us/topics/insights/2021/provably-expressive-graph-neural-networks
+  video: https://www.youtube.com/watch?v=3dfSeOy3BJw
+  lead: False
+-
+  title: "Weisfeiler and Lehman Go Cellular: CW Networks"
+  authors: Cristian Bodnar*, Fabrizio Frasca*, Nina Otter, Yu Guang Wang, Pietro Liò, Guido Montúfar, Michael M. Bronstein
+  abstract: "Graph Neural Networks (GNNs) are limited in their expressive power, struggle with long-range interactions and lack a principled way to model higher-order structures. These problems can be attributed to the strong coupling between the computational graph and the input graph structure. The recently proposed Message Passing Simplicial Networks naturally decouple these elements by performing message passing on the clique complex of the graph. Nevertheless, these models can be severely constrained by the rigid combinatorial structure of Simplicial Complexes (SCs). In this work, we extend recent theoretical results on SCs to regular Cell Complexes, topological objects that flexibly subsume SCs and graphs. We show that this generalisation provides a powerful set of graph \"lifting\" transformations, each leading to a unique hierarchical message passing procedure. The resulting methods, which we collectively call CW Networks (CWNs), are strictly more powerful than the WL test and not less powerful than the 3-WL test. In particular, we demonstrate the effectiveness of one such scheme, based on rings, when applied to molecular graph problems. The proposed architecture benefits from provably larger expressivity than commonly used GNNs, principled modelling of higher-order signals and from compressing the distances between nodes. We demonstrate that our model achieves state-of-the-art results on a variety of molecular datasets."
+  venue: NeurIPS 2021 
+  link: https://arxiv.org/abs/2106.12575
+  code: https://github.com/twitter-research/cwn
+  post: https://towardsdatascience.com/a-new-computational-fabric-for-graph-neural-networks-280ea7e3ed1a
+  video: https://www.youtube.com/watch?v=MTQGNVTn9lQ
+  thumbnail: ./assets/thumbnails/cwn.png
+  lead: True
+-
+  title: "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks"
+  authors: Cristian Bodnar*, Fabrizio Frasca*, Yu Guang Wang*, Nina Otter, Guido Montúfar*, Pietro Liò, Michael M. Bronstein
+  abstract: "The pairwise interaction paradigm of graph machine learning has predominantly governed the modelling of relational systems. However, graphs alone cannot capture the multi-level interactions present in many complex systems and the expressive power of such schemes was proven to be limited. To overcome these limitations, we propose Message Passing Simplicial Networks (MPSNs), a class of models that perform message passing on simplicial complexes (SCs). To theoretically analyse the expressivity of our model we introduce a Simplicial Weisfeiler-Lehman (SWL) colouring procedure for distinguishing non-isomorphic SCs. We relate the power of SWL to the problem of distinguishing non-isomorphic graphs and show that SWL and MPSNs are strictly more powerful than the WL test and not less powerful than the 3-WL test. We deepen the analysis by comparing our model with traditional graph neural networks (GNNs) with ReLU activations in terms of the number of linear regions of the functions they can represent. We empirically support our theoretical claims by showing that MPSNs can distinguish challenging strongly regular graphs for which GNNs fail and, when equipped with orientation equivariant layers, they can improve classification accuracy in oriented SCs compared to a GNN baseline."
+  venue: ICML 2021 
+  link: https://arxiv.org/abs/2103.03212
+  code: https://github.com/twitter-research/cwn
+  post: https://towardsdatascience.com/a-new-computational-fabric-for-graph-neural-networks-280ea7e3ed1a
+  thumbnail: ./assets/thumbnails/mpsn.png
+  lead: True
+-
+  title: Temporal Graph Networks for Deep Learning on Dynamic Graphs
+  authors: Emanuele Rossi, Ben Chamberlain, Fabrizio Frasca, Davide Eynard, Federico Monti, Michael M. Bronstein
+  abstract: "Graph Neural Networks (GNNs) have recently become increasingly popular due to their ability to learn complex systems of relations or interactions arising in a broad spectrum of problems ranging from biology and particle physics to social networks and recommendation systems. Despite the plethora of different models for deep learning on graphs, few approaches have been proposed thus far for dealing with graphs that present some sort of dynamic nature (e.g. evolving features or connectivity over time). In this paper, we present Temporal Graph Networks (TGNs), a generic, efficient framework for deep learning on dynamic graphs represented as sequences of timed events. Thanks to a novel combination of memory modules and graph-based operators, TGNs are able to significantly outperform previous approaches being at the same time more computationally efficient. We furthermore show that several previous models for learning on dynamic graphs can be cast as specific instances of our framework. We perform a detailed ablation study of different components of our framework and devise the best configuration that achieves state-of-the-art performance on several transductive and inductive prediction tasks for dynamic graphs."
+  link: https://arxiv.org/abs/2006.10637
+  code: https://github.com/twitter-research/tgn
+  post: https://blog.twitter.com/engineering/en_us/topics/insights/2021/temporal-graph-networks
+  video: https://www.youtube.com/watch?v=W1GvX2ZcUmY
+  lead: False
+-
+  title: Scalable Inception Graph Neural Networks
+  authors: Fabrizio Frasca*, Emanuele Rossi*, Davide Eynard, Ben Chamberlain, Michael M. Bronstein, Federico Monti
+  abstract: "Graph representation learning has recently been applied to a broad spectrum of problems ranging from computer graphics and chemistry to high energy physics and social media. The popularity of graph neural networks has sparked interest, both in academia and in industry, in developing methods that scale to very large graphs such as Facebook or Twitter social networks. In most of these approaches, the computational cost is alleviated by a sampling strategy retaining a subset of node neighbors or subgraphs at training time. In this paper we propose a new, efficient and scalable graph deep learning architecture which sidesteps the need for graph sampling by using graph convolutional filters of different size that are amenable to efficient precomputation, allowing extremely fast training and inference. Our architecture allows using different local graph operators (e.g. motif-induced adjacency matrices or Personalized Page Rank diffusion matrix) to best suit the task at hand. We conduct extensive experimental evaluation on various open benchmarks and show that our approach is competitive with other state-of-the-art architectures, while requiring a fraction of the training and inference time. Moreover, we obtain state-of-the-art results on ogbn-papers100M, the largest public graph dataset, with over 110 million nodes and 1.5 billion edges."
+  link: https://arxiv.org/abs/2004.11198
+  code: https://github.com/twitter-research/sign
+  post: https://blog.twitter.com/engineering/en_us/topics/insights/2021/simple-scalable-graph-neural-networks
+  thumbnail: ./assets/thumbnails/sign.png
+  lead: True
+-
+  title: Exposing and Characterizing Subpopulations of Distinctly Regulated Genes by K-Plane Regression
+  authors: Fabrizio Frasca, Matteo Matteucci, Marco J. Morelli, Marco Masseroli
+  abstract: "Understanding the roles and interplays of histone marks and transcription factors in the regulation of gene expression is of great interest in the development of non-invasive and personalized therapies. Computational studies at genome-wide scale represent a powerful explorative framework, allowing to draw general conclusions. However, a genome-wide approach only identifies generic regulative motifs, and possible multi-functional or co-regulative interactions may remain concealed. In this work, we hypothesize the presence of a number of distinct subpopulations of transcriptional regulative patterns within the set of protein coding genes that explain the statistical redundancy observed at a genome-wide level. We propose the application of a K-Plane Regression algorithm to partition the set of protein coding genes into clusters with specific shared regulative mechanisms. Our approach is completely data-driven and computes clusters of genes significantly better fitted by specific linear models, in contrast to single regressions. These clusters are characterized by distinct and sharper histonic input patterns, and different mean expression values."
+  venue: LNBI (Lecture Notes in BioInformatics, 2020; extended from CIBB 2018)
+  link: https://link.springer.com/chapter/10.1007/978-3-030-34585-3_20
+  thumbnail: ./assets/thumbnails/kplane.png
+  lead: True
+-
+  title: Learning Interpretable Disease Self-Representations for Drug Repositioning
+  authors: Fabrizio Frasca*, Diego Galeano*, Guadalupe Gonzalez, Ivan Laponogov, Kirill Veselkov, Alberto Paccanaro, Michael M. Bronstein
+  abstract: "Drug repositioning is an attractive cost-efficient strategy for the development of treatments for human diseases. Here, we propose an interpretable model that learns disease self-representations for drug repositioning. Our self-representation model represents each disease as a linear combination of a few other diseases. We enforce proximity in the learnt representations in a way to preserve the geometric structure of the human phenome network - a domain-specific knowledge that naturally adds relational inductive bias to the disease self-representations. We prove that our method is globally optimal and show results outperforming state-of-the-art drug repositioning approaches. We further show that the disease self-representations are biologically interpretable."
+  link: https://arxiv.org/abs/1909.06609
+  code: https://github.com/Noired/GSEM
+  thumbnail: ./assets/thumbnails/gsem.png
+  lead: True
+-
+  title: Fake News Detection on Social Media using Geometric Deep Learning
+  authors: Federico Monti, Fabrizio Frasca, Davide Eynard, Damon Mannion, Michael M. Bronstein
+  abstract: "Social media are nowadays one of the main news sources for millions of people around the globe due to their low cost, easy access and rapid dissemination. This however comes at the cost of dubious trustworthiness and significant risk of exposure to 'fake news', intentionally written to mislead the readers. Automatically detecting fake news poses challenges that defy existing content-based analysis approaches. One of the main reasons is that often the interpretation of the news requires the knowledge of political or social context or 'common sense', which current NLP algorithms are still missing. Recent studies have shown that fake and real news spread differently on social media, forming propagation patterns that could be harnessed for the automatic fake news detection. Propagation-based approaches have multiple advantages compared to their content-based counterparts, among which is language independence and better resilience to adversarial attacks. In this paper we show a novel automatic fake news detection model based on geometric deep learning. The underlying core algorithms are a generalization of classical CNNs to graphs, allowing the fusion of heterogeneous data such as content, user profile and activity, social graph, and news propagation. Our model was trained and tested on news stories, verified by professional fact-checking organizations, that were spread on Twitter. Our experiments indicate that social network structure and propagation are important features allowing highly accurate (92.7% ROC AUC) fake news detection. Second, we observe that fake news can be reliably detected at an early stage, after just a few hours of propagation. Third, we test the aging of our model on training and testing data separated in time. Our results point to the promise of propagation-based approaches for fake news detection as an alternative or complementary strategy to content-based approaches."
+  link: https://arxiv.org/abs/1902.06673
+  thumbnail: ./assets/thumbnails/elph.png
+  lead: False
+# -
+#   title: Unveiling Gene Expression Histonic Regulative Patterns by Hyperplanes Clustering
+#   authors: Fabrizio Frasca, Matteo Matteucci, Marco J. Morelli, Marco Masseroli
+#   venue: CIBB 2018
+#   abstract: "In targeted cancer therapy, great relevance is assumed by data-driven investigations on the fundamental mechanisms by which epigenetic modifications cooperate to regulate the transcriptional status of genes. At the high resolution level of genome-wide studies, only general, mean regulative motifs are drawn, with possible multi-functional co-regulative roles remaining concealed. In order to retrieve sharper and more reliable regulative patterns, in this work we propose the application of K-plane regression to partition the set of protein coding genes into clusters with shared regulative mechanisms. Completely data-driven, the approach has computed clusters of genes significantly better fitted by specific linear models than by single regression, and characterized by distinct histonic input patterns and mean measured expression values."
+#   link: https://re.public.polimi.it/bitstream/11311/1069177/1/CIBB_2018_finale.pdf
+#   thumbnail: ./assets/thumbnails/elph.png
+#   lead: True
+-
+  title: Modeling Gene Transcriptional Regulation by Means of Hyperplanes Genetic Clustering
+  authors: Fabrizio Frasca, Matteo Matteucci, Marco Masseroli, Marco J. Morelli
+  abstract: "In the wide context of biological processes regulating gene expression, transcriptional regulation driven by epigenetic activity is among the most effective and intriguing ones. Understanding the complex language of histone modifications and transcription factor bindings is an appealing yet hard task, given the large number of involved features and the specificity of their combinatorial behavior across genes. Genome-wide regression models for predicting mRNA abundance quantifications from epigenetic activity are interesting in an exploratory framework, but their effectiveness is limited as the relative predictive power of epigenetic features is hard to discern at such level of resolution. On the other hand, an investigative analysis cannot rely on prior biological knowledge to perform sensible grouping of genes and locally study epigenetic regulative processes. In this context, we shaped the “gene stratification problem” as a form of epigenetic feature-based hyperplanes clustering, and proposed a genetic algorithm to approach this task, aiming at performing datadriven partitioning of the whole set of protein coding genes of an organism based on the characteristic relation between their expression and the associated epigenetic activity. We observed how, not only the hyperplanes described by the resulting partitions significantly differ from each other, but also how different epigenetic features are of diverse importance in predicting gene expression within each partition. This demonstrates the validity and biological interest of the proposed computational method and the obtained results."
+  venue: IJCNN 2018
+  link: https://ieeexplore.ieee.org/abstract/document/8489054
+  thumbnail: ./assets/thumbnails/hypgenclust.png
+  lead: True
+# -
+#   title: 
+#   authors: 
+#   abstract: 
+#   venue: 
+#   link: 
+#   code: 
+#   post: 
+#   thumbnail: ./assets/thumbnails/elph.png
+#   comment: 
+#   lead: True

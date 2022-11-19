@@ -1,0 +1,53 @@
+<p style="font-size:12px;margin-bottom:5px"> 
+	(<b>*</b> indicates equal contribution; see <a href="{{ "/works" | relative_url }}">here</a> for a complete list).
+</p>
+<br/>
+{% for work in site.data.works %}
+{% if {{work.lead}} %}
+<div class="clearfix">
+  <img style="width:180px;margin-right:30px;margin-bottom:40px;float:left" src="{{work.thumbnail | relative_url}}" alt="thumbnail" />
+	<p style="font-size:16px;margin-bottom:7px">
+		<b>
+			{{work.title}}
+		</b>
+	</p>
+	<p style="margin-bottom:5px">
+		{{work.authors | replace: "Fabrizio Frasca", "<u>Fabrizio Frasca</u>"}}
+	</p>
+	<p style="margin-bottom:10px">
+		(<a href='{{work.link}}'>paper</a>) 
+		{% if {{work.code}} %}
+		  (<a href='{{work.code}}'>code</a>)
+		{% endif %}
+		{% if {{work.post}} %}
+		  (<a href='{{work.post}}'>post</a>)
+		{% endif %}
+		{% if {{work.video}} %}
+		  (<a href='{{work.video}}'>video</a>)
+		{% endif %}
+	</p>
+	<p style="margin-bottom:5px">
+		{% if {{work.venue}} %}
+		  <em>
+		  	{{work.venue}}
+		  </em>
+		{% endif %}
+		{% if {{work.comment}} %}
+		  <br />
+		  <em>
+		  	<b>
+		  		{{work.comment}}
+		  	</b>
+		  </em>
+		{% endif %}
+	</p>
+	<details>
+		<summary>Abstract</summary>
+		<br />
+		{{work.abstract}}
+	</details>
+	<br />
+</div>
+<hr>
+{% endif %}
+{% endfor %}

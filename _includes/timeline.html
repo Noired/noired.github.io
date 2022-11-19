@@ -1,0 +1,9 @@
+{% for new in site.data.news limit:3 %}
+<p>
+	[{{new.year}}/{{new.month}}] <i> {{new.text}} </i>
+</p>
+{% endfor %}
+
+<p style="font-size:12px;margin-top:0px;margin-bottom:5px"> 
+	... see more <a href="{{ "/time" | relative_url }}">here</a> ...
+</p>

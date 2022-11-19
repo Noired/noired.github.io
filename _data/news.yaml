@@ -1,0 +1,140 @@
+- 
+  month: 10
+  year: 2022
+  text: "Our tutorial proposal got accepted at <a href='https://logconference.org/'>Learning on Graph 2022</a>! The tutorial will focus on the expressive power of Graph Neural Networks and I will present along with Beatrice Bevilacqua and Dr. Haggai Maron."
+- 
+  month: 10
+  year: 2022
+  text: "<a href='https://arxiv.org/abs/2206.11140'>Understanding and Extending Subgraph GNNs by Rethinking Their Symmetries</a> got selected as <b>oral presentation</b> at <a href='https://nips.cc/Conferences/2022'>NeurIPS 2022</a>!"
+- 
+  month: 9
+  year: 2022
+  text: "Our new paper <a href='https://arxiv.org/abs/2206.11140'>Understanding and Extending Subgraph GNNs by Rethinking Their Symmetries</a> is accepted at <a href='https://nips.cc/Conferences/2022'>NeurIPS 2022</a> – see you in New Orleans :)"
+- 
+  month: 7
+  year: 2022
+  text: "I am honoured I will contribute to the <a href='https://geometricdeeplearning.com/lectures/'>Geometric Deep Learning AIMS 2022 course</a> by holding a seminar on 'Subgraphs for more expressive GNNs'."
+-
+  month: 7
+  year: 2022
+  text: "Exciting news – I got selected to join the <a href='https://www.logml.ai/home-2022'>LOGML 2022 summer school</a> and I will work with Leonardo Cotta and Dr. Shubhendu Trivedi on 'Equivariant Poset Representations'."
+-
+  month: 6
+  year: 2022
+  text: "New <a href='https://towardsdatascience.com/a-new-computational-fabric-for-graph-neural-networks-280ea7e3ed1a'>blogpost</a> out! It covers the two works Cris Bodnar and I authored on 'Topological Message Passing'."
+- 
+  month: 6
+  year: 2022
+  text: "A new <a href='https://medium.com/airbnb-engineering/graph-machine-learning-at-airbnb-f868d65f36ee'>blogpost</a> from Airbnb explains how they chose our SIGN model to suit their graph learning needs at scale."
+-
+  month: 3
+  year: 2022
+  text: "Just given a talk at the Dagstuhl Seminar '<a href='https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22132'>Graph Embeddings: Theory meets Practice</a>'. I presented '(Graph) Representation Learning on Simplicial and Cellular Complexes' and spent <a href='https://twitter.com/ffabffrasca/status/1509163344606941191'>three days with amazing researchers</a>."
+-
+  month: 3
+  year: 2022
+  text: "A new <a href='https://twitter.com/ZakJost/status/1504154214515163139'>interview</a> by Zak Jost just out. It covers our recent paper '<a href='https://openreview.net/pdf?id=dFbKQaRk15w'>Equivariant Subgraph Aggregation Networks</a>."
+-
+  month: 1
+  year: 2022
+  text: "Our paper '<a href='https://openreview.net/pdf?id=dFbKQaRk15w'>Equivariant Subgraph Aggregation Networks</a>' has been accepted at <a href='https://iclr.cc/Conferences/2022'>ICLR 2022</a> as a <b>spotlight</b>!"
+-
+  month: 12
+  year: 2021
+  text: "I've just presented '<a href='https://www.youtube.com/watch?v=hkb4pgPoz0Y'>Subgraphs for more expressive GNNs</a>' at the <a href='https://nepalschool.naamii.com.np/'>2021 Nepal Winter School</a>. Honoured!"
+-
+  month: 12
+  year:  2021
+  text: "New co-authored blogpost out: '<a href='https://towardsdatascience.com/using-subgraphs-for-more-expressive-gnns-8d06418d5ab?sk=8806ffcd9ecf74c440d40df53528c1c7'>Using Subgraphs for More Expressive GNNs</a>'. Gist: we gather together with M. M. Bronstein, C. Morris, L. Cotta, H. Maron and L. Zhao and discuss our related concurrent works together."
+-
+  month: 11
+  year: 2021
+  text: "I am glad to share our paper '<a href='https://arxiv.org/abs/2106.12575'>Weisfeiler and Lehman Go Cellular: CW Networks</a>' got accepted at <a href='https://nips.cc/Conferences/2021'>NeurIPS 2021</a>!"
+-
+  month: 10
+  year: 2021
+  text: "I had the pleasure to moderate the <a href='https://www.youtube.com/watch?v=sUYnB6LnYPw'>London ML Meetup</a> on the latest works from Dr. Anees Kazi on GNNs for medical applications."
+-
+  month: 9
+  year: 2021
+  text: "Excited to share I will spend October and November in Spain (València & Málaga). I will continue my research work remotely during this period :)"
+- 
+  month: 8
+  year: 2021
+  text: "The <a href='https://github.com/twitter-research/cwn'>code</a> for simplicial and cellular message-passing which powers our latest approaches is out now!"
+- 
+  month: 8
+  year: 2021
+  text: "I got selected to take part in the <a href='https://www.logml.ai/home-2021'>LOGML 2021 summer school</a>! I will join Dr. Haggai Maron on exploring subgraphs for more expressive GNNs."
+-    
+  month: 7
+  year: 2021
+  text: "<a href='https://twitter.com/ffabffrasca/status/1419341447367733251'>I managed to recognise my home town from the picture of a cup of espresso (!)'</a>"
+-
+  month: 7
+  year: 2021
+  text: "Our latest paper on cellular message-passing was featured in a <a href='https://twitter.com/mmbronstein/status/1410500338914836480'>blogpost</a> from Synced!"
+-
+  month: 6
+  year: 2021
+  text: "Just gave a talk with Cris Bodnar at <a href='https://sites.google.com/view/toponets2021/home-page?pli=1'>TopoNets 2021</a> on our latest works on topological message-passing."
+-
+  month: 6
+  year: 2021
+  text: "New pre-print out: '<a href='https://arxiv.org/abs/2106.12575'>Weisfeiler and Lehman Go Cellular: CW Networks</a>'. We continue our exploration of message-passing on more general topological objects."
+-
+  month: 6
+  year: 2021
+  text: "New <a href='https://blog.twitter.com/engineering/en_us/topics/insights/2021/provably-expressive-graph-neural-networks'>post</a> out on 'Provably expressive Graph Neural Network' on the Twitter Engineering blog :)"
+-
+  month: 5
+  year: 2021
+  text: "Cris Bodnar and I are presenting our paper '<a href='https://arxiv.org/abs/2103.03212'>Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks</a>' at <a href='http://talks.cam.ac.uk/talk/index/159697'>Cambridge's AI Research Talks</a> :)"
+-
+  month: 5
+  year: 2021
+  text: "Our paper <a href='https://arxiv.org/abs/2103.03212'>Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks</a>' got accepted at <a href='https://icml.cc/Conferences/2021'>ICML 2021</a>!"
+-
+  month: 4
+  year: 2021
+  text: "I have <a href='https://media.mis.mpg.de/mml/2021-04-08/'>presented</a> '<a href='https://arxiv.org/abs/2103.03212'>Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks</a>' along with Cris Bodnar and Yu Guang Wang at the MPI MIS + UCLA Math Machine Learning Seminar :)"
+-
+  month: 4
+  year: 2021
+  text: "<a href='https://arxiv.org/abs/2103.03212'>Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks</a>' got accepted as a spotlight at the <a href='https://gt-rl.github.io/'>GTRL ICLR 2021 workshop</a>!"
+-
+  month: 3
+  year: 2021
+  text: "New pre-print out: '<a href='https://arxiv.org/abs/2103.03212'>Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks</a>'. We explore generalisations of message-passing from graphs to simplicial complexes."
+-
+  month: 10
+  year: 2020
+  text: "Happy to share I am starting (again) as a PhD candidate at Imperial College London under the supervision of Prof. Michael Bronstein. I will conduct my research activity part-time while working for Twitter."
+-
+  month: 4
+  year: 2020
+  text: "New work on arXiv: '<a href='https://arxiv.org/abs/2004.11198'>SIGN: Scalable Inception Graph Neural Networks</a>'. We propose a simple, yet effective approach to scale the computation of Graph Neural Networks to large-scale graphs."
+-
+  month: 12
+  year: 2019
+  text: "I will be at NeurIPS 2019 in the following days to present our paper '<a href='https://arxiv.org/abs/1909.06609'>Learning Interpretable Disease Self-Representations for Drug Repositioning</a>' at the <a href='https://grlearning.github.io/'> NeurIPS 2019 Graph Representation Learning Workshop</a> :)"
+-
+  month: 9
+  year: 2019
+  text: "New pre-print out: '<a href='https://arxiv.org/abs/1909.06609'>Learning Interpretable Disease Self-Representations for Drug Repositioning</a>'. We train linear sparse self-encoding models for repurposing drugs."
+-
+  month: 6
+  year: 2019
+  text: "Thrilled to announce <a href='https://blog.twitter.com/en_us/topics/company/2019/Twitter-acquires-Fabula-AI'>Fabula AI is being acquired</a> by Twitter and I will join on-board as a tweep Machine Learning Engineer!"
+- 
+  month: 5
+  year: 2019
+  text: "I will spend one week in LA to attend the IPAM workshop '<a href='https://www.ipam.ucla.edu/programs/workshops/workshop-iv-deep-geometric-learning-of-big-data-and-applications/'>Deep Geometric Learning of Big Data and Applications</a>' – see you there :)"
+-
+  month: 10
+  year: 2018
+  text: "I am starting a PhD at USI (Università della Svizzera Italiana) advised by Prof. Bronstein. However, I will spend my first 4 months in London visting him at Imperial College London!"
+-
+  month: 6
+  year: 2018
+  text: "After graduating with distinction from Politecnico di Milano, I am happy to share that I have joined startup Fabula AI to explore applications of Geometric Deep Learning to Fake News Detection :)"

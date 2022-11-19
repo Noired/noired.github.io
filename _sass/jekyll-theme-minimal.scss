@@ -36,7 +36,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#000000;
-  text-decoration:none;
+  text-decoration:underlined;
 }
 
 a small {
@@ -47,9 +47,14 @@ a small {
 }
 
 .wrapper {
-  width:780px;
+  width:1180px;
   margin:0 auto;
 }
+
+.clearfix {
+  overflow: auto;
+}
+
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -110,7 +115,7 @@ kbd {
 }
 
 header {
-  width:230px;
+  width:270px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -163,6 +168,8 @@ ul.downloads {
 strong {
   color:#222;
   font-weight:700;
+  font-size:16px;
+  margin-bottom:10px
 }
 
 .downloads li + li + li {
@@ -177,7 +184,7 @@ strong {
 }
 
 section {
-  width:500px;
+  width:850px;
   float:right;
   padding-bottom:50px;
 }

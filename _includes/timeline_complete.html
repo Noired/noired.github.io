@@ -1,0 +1,8 @@
+{% for new in site.data.news %}
+<p style='margin-top:5px;margin-bottom:20px'>
+<i><b>{{new.year}}/{{new.month}}</b></i>
+<br/>
+&emsp;{{new.text}}
+</p>
+{% endfor %}
+<hr>

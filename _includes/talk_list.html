@@ -1,0 +1,52 @@
+{% for talk in site.data.talks %}
+<p style="font-size:16px;margin-bottom:0px">
+	<b>
+		{{talk.title}}
+	</b>
+</p>
+<p style="font-size:16px;margin-bottom:10px">
+	<!-- <i> -->
+		{% if talk.link %}
+			<a href='{{talk.link}}'>{{talk.venue}}</a>
+		{% else %}
+			{{talk.venue}}
+		{% endif %}
+	<!-- </i> -->
+</p>
+<p style="margin-bottom:5px">
+	{% if {{talk.playback}} %}
+	  (<a href='{{talk.playback}}'>recording</a>)
+	{% endif %}
+	{% if {{talk.slides}} %}
+	  (<a href='{{talk.slides}}'>slides</a>)
+	{% endif %}
+</p>
+<details>
+	<summary>tl;dr</summary>
+	<br />
+	{{talk.tldr}}
+</details>
+{% if {{talk.co}} %}
+<p style="margin-top:5px;margin-bottom:5px">
+	Co-presented with: 
+	{% for speaker in talk.co %}
+		{% unless {{speaker}} contains {{talk.co.last}} %}
+			{{speaker}}, 
+		{% endunless %}
+	{% endfor %}
+	{{talk.co.last}}
+</p>
+{% endif %}
+{% if {{talk.works}} %}
+<p style="margin-bottom:15px">
+	Based on: 
+	{% for work in talk.works %}
+		{% unless {{work}} contains {{talk.works.last}} %}
+			<a href='{{work}}'>{{work}}</a>, 
+		{% endunless %}
+	{% endfor %}
+	<a href='{{talk.works.last}}'>{{talk.works.last}}</a>
+</p>
+{% endif %}
+<hr>
+{% endfor %}

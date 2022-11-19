@@ -1,0 +1,213 @@
+# -
+#   month:
+#   year:
+#   title:
+#   playback:
+#   venue:
+#   slides:
+#   link:
+#   tldr:
+#   co:
+#   works: 
+-
+  month: 11
+  year: 2022
+  title: "Understanding and Extending Subgraph GNNs by Rethinking their Symmetries"
+  venue: Learning on Graphs and Geometry Reading Group
+  link: https://twitter.com/HannesStaerk/status/1592174079892594688
+  tldr: "Many concurrent works seem to share a similar underlying intuition: to represent a graph by processing subgraphs generated via some simple selection policy. Inspired by a novel symmetry analyses for the most prominent of these methods – those where subgraphs are in a 1:1 correspondence with nodes in the original graph – we prove an upper-bound on their expressive power and conceive a framework serving as a design space for future new equivariant node-based subgraph architectures."
+  co:
+    - Beatrice Bevilacqua
+  works: 
+    - https://arxiv.org/abs/2206.11140
+-
+  month: 11
+  year: 2022
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks (GNNs)"
+  venue: "Simone Scardapane's Group Talks (Sapienza)"
+  link: https://www.sscardapane.it/seminars/subgraph-gnn
+  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. Ee prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+  co:
+    - Beatrice Bevilacqua
+  works: 
+    - https://arxiv.org/abs/2206.11140
+    - https://arxiv.org/abs/2110.02910
+-
+  month: 7
+  year: 2022
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks (GNNs)"
+  venue: Meta AI orgs Reading Meeting
+  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. Ee prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+  co:
+    - Beatrice Bevilacqua
+  works: 
+    - https://arxiv.org/abs/2206.11140
+    - https://arxiv.org/abs/2110.02910
+-
+  month: 7
+  year: 2022
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks (GNNs)"
+  venue: "Maks Ovsjanikov's Group Talks (EPFL)"
+  link: https://www.lix.polytechnique.fr/~maks/
+  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. Ee prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+  co:
+    - Beatrice Bevilacqua
+  works: 
+    - https://arxiv.org/abs/2206.11140
+    - https://arxiv.org/abs/2110.02910
+-
+  month: 7
+  year: 2022
+  title: "Subgraphs for more expressive GNNs"
+  playback: https://www.youtube.com/watch?v=PxJ5o4y4FUA
+  venue: Course on Geometric Deep Learning at the African Master's on Machine Intelligence (GDL100) – Seminar
+  slides: https://www.dropbox.com/s/tnuhppf1fqmv6y9/AIMS%202022%20-%20Seminar%202%20-%20Subgraph%20GNNs.pdf?dl=0
+  link: https://geometricdeeplearning.com/lectures/
+  tldr: "Many concurrent works seem to share a similar underlying intuition: to represent a graph by processing subgraphs generated via some simple selection policy. We discuss these methods together and try to find a common characterisation, while showing that the architecture proposed in our previous work 'Equivariant Subgraph Aggregation Networks' subsumes most of them."
+  works: 
+    - https://arxiv.org/abs/2110.02910
+-
+  month: 3
+  year: 2022
+  title: "Graph Representation Learning on Simplicial and Cellular Complexes"
+  venue: "Dagstuhl Seminars – Graph Embeddings: Theory meets Practice"
+  link: https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=22132
+  tldr: "I gather together our works on message-passing on Simplicial and Cellular Complexes and present them together showing how these approaches in turn allow for more expressive graph representations."
+  works:
+    - https://arxiv.org/abs/2106.12575
+    - https://arxiv.org/abs/2103.03212
+-
+  month: 2
+  year: 2022
+  title: "Equivariant Subgraph Aggregation Networks"
+  playback: https://www.youtube.com/watch?v=VYZog7kbXks
+  venue: Author Interviews with Zak Jost
+  link: https://twitter.com/ZakJost/status/1504154214515163139
+  tldr: "We explore the idea of modeling a graph as a bag of subgraphs generated by simple, domain agnostic selection policies, such as node-deletion, edge-deletion, ego-networks. We formally show that this approach lead to the design Graph Neural Networks which can be made strictly more powerful than standard Message Passing ones. We prove this by defining a novel WL variant and by constructing layers equivariant to the emerging symmetry group."
+  co:
+    - Derek Lim
+    - Beatrice Bevilacqua
+  works: 
+    - https://arxiv.org/abs/2110.02910
+-
+  month: 12
+  year: 2021
+  title: "Subgraph Networks"
+  playback: https://www.youtube.com/watch?v=hkb4pgPoz0Y
+  venue: Third Nepal Winter School in AI
+  link: https://twitter.com/naamii_nepal/status/1579137847218491392
+  tldr: "Many concurrent works seem to share a similar underlying intuition: to represent a graph by processing subgraphs generated via some simple selection policy. We discuss these methods together and try to find a common characterisation, while showing that the architecture proposed in our previous work 'Equivariant Subgraph Aggregation Networks' subsumes most of them."
+  works: 
+    - https://arxiv.org/abs/2110.02910
+-
+  month: 12
+  year: 2021
+  title: "Equivariant Subgraph Aggregation Networks"
+  playback: https://www.youtube.com/watch?v=voMue3G-_vk
+  venue: Learning on Graphs and Geometry Reading Group
+  link: https://twitter.com/HannesStaerk/status/1470424178117558274
+  tldr: "We explore the idea of modeling a graph as a bag of subgraphs generated by simple, domain agnostic selection policies, such as node-deletion, edge-deletion, ego-networks. We formally show that this approach lead to the design Graph Neural Networks which can be made strictly more powerful than standard Message Passing ones. We prove this by defining a novel WL variant and by constructing layers equivariant to the emerging symmetry group."
+  co:
+    - Derek Lim
+    - Beatrice Bevilacqua
+  works: 
+    - https://arxiv.org/abs/2110.02910
+-
+  month: 10
+  year: 2021
+  title: "Graph Convolutional Network for Disease Prediction with Imbalanced Data – Anees Kazi"
+  playback: https://www.youtube.com/watch?v=sUYnB6LnYPw
+  venue: London Machine Learning Meetup (Moderator)
+  link: https://www.meetup.com/London-Machine-Learning-Meetup/
+  tldr: I moderate Anees Kazi's talk at the London Machine Learning Meetup.
+-
+  month: 8
+  year: 2021
+  title: "Weisfeiler and Lehman Go Cellular: CW Networks"
+  playback: https://www.youtube.com/watch?v=MTQGNVTn9lQ
+  venue: Learning on Graphs and Geometry Reading Group
+  link: https://twitter.com/HannesStaerk/status/1434903774645026820
+  tldr: "We extend message-passing from graphs and Simplicial Complexes to Cellular Complexes, combinatorial topological spaces generalising these two. By lifting graphs to Cellular Complexes we can naturally model molecules and unlock a series of advantages w.r.t. standard pairwise message-passing."
+  co:
+    - Cristian Bodnar
+  works:
+    - https://arxiv.org/abs/2106.12575
+- 
+  month: 8
+  year: 2021
+  title: "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks"
+  venue: Course on Geometric Deep Learning at the African Master's on Machine Intelligence (GDL100) – Seminar
+  link: https://geometricdeeplearning.com/lectures_2021/
+  slides: https://www.dropbox.com/s/sai0wgh46zwd1b3/AMMI%20Seminar%204%20-%20Message%20Passing%20Simplicial%20Networks.pdf?dl=0
+  tldr: "We re-define colour refinement and message-passing on Simplicial Complexes, topological generalisation of graphs. This allows to model higher-order interactions, model meso-scale structures and increase the expressive power of Graph Neural Networks."
+  works:
+    - https://arxiv.org/abs/2103.03212
+-
+  month: 7
+  year: 2021
+  title: "The expressive power of GNNs by the WL test"
+  venue: London Geometry and Machine Learning Summer School 2021 – Tutorial
+  link: https://www.logml.ai/archive
+  tldr: "What is the current state of affair in provably more expressive Graph Neural Networks? Giorgos Bouritsas and I lead and moderate this interactive discussion on approaches to go beyond 1-WL discriminating power. Ultimately, we would like to tackle the following question: 'Is the Weisfeiler-Leman hierarchy suitable to study the representational power of learning models on graphs? Do we necessarily need to go beyond message-passing?'"
+  co:
+    - Giorgos Bouritsas
+-
+  month: 6
+  year: 2021
+  title: "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks"
+  venue: TopoNets 2021 – Networks Beyond Pairwise Interactions
+  link: https://sites.google.com/view/toponets2021/home-page?pli=1
+  tldr: "We re-define colour refinement and message-passing on Simplicial Complexes, topological generalisation of graphs. This allows to model higher-order interactions, model meso-scale structures and increase the expressive power of Graph Neural Networks."
+  co:
+    - Cristian Bodnar
+  works:
+    - https://arxiv.org/abs/2103.03212
+-
+  month: 5
+  year: 2021
+  title: "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks"
+  venue: Artificial Intelligence Research Group Talks (Cambridge University)
+  link: http://talks.cam.ac.uk/talk/index/159697
+  tldr: "We re-define colour refinement and message-passing on Simplicial Complexes, topological generalisation of graphs. This allows to model higher-order interactions, model meso-scale structures and increase the expressive power of Graph Neural Networks."
+  co:
+    - Cristian Bodnar
+    - Yu Guang Wang
+  works:
+    - https://arxiv.org/abs/2103.03212
+-
+  month: 4
+  year: 2021
+  title: "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks"
+  venue: Graph Journal Club (Valence AI)
+  link: https://twitter.com/valence_ai/status/1383026981546131460
+  tldr: "We re-define colour refinement and message-passing on Simplicial Complexes, topological generalisation of graphs. This allows to model higher-order interactions, model meso-scale structures and increase the expressive power of Graph Neural Networks."
+  co:
+    - Cristian Bodnar
+    - Yu Guang Wang
+  works:
+    - https://arxiv.org/abs/2103.03212
+-
+  month: 4
+  year: 2021
+  title: "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks"
+  venue: Math Machine Learning seminar MPI MIS + UCLA
+  link: https://media.mis.mpg.de/mml/2021-04-08/
+  playback: https://media.mis.mpg.de/mml/2021-04-08/
+  slides: https://crisbodnar.github.io/files/mml_talk.pdf
+  tldr: "We re-define colour refinement and message-passing on Simplicial Complexes, topological generalisation of graphs. This allows to model higher-order interactions, model meso-scale structures and increase the expressive power of Graph Neural Networks."
+  co:
+    - Cristian Bodnar
+    - Yu Guang Wang
+  works:
+    - https://arxiv.org/abs/2103.03212
+-
+  month: 4
+  year: 2021
+  title: "Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting"
+  venue: Graph Journal Club (Valence AI)
+  link: https://twitter.com/valence_ai/status/1377663622407655426
+  tldr: "We study how isomorphism counting of small substructures can improve the expressive power of Message Passing Neural Networks, while retaining equivariance, a good inductive bias, and their tractable fwd-pass computational complexity."
+  co:
+    - Giorgos Bouritsas
+  works:
+    -  https://arxiv.org/abs/2006.09252

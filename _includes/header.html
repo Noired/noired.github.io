@@ -1,26 +1,32 @@
 <header>
   
-  <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+  <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
 
-  <hr>
+  <!-- <hr> -->
 
   {% if site.logo %}
-    <img src="{{site.logo | relative_url}}" alt="Logo" />
+    <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
   {% endif %}
 
   <hr>
 
   <h2 style="text-align:center">
-    <a class="page-link" href="{{ "/publications" | relative_url }}">{{ "Publications" | escape }}</a>
+    <a href="{{ "/works" | relative_url }}">{{ "Works" | escape }}</a>
   </h2>
   <h2 style="text-align:center">
-    <a class="page-link" href="{{ "/talks" | relative_url }}">{{ "Talks" | escape }}</a>
+    <a href="{{ "/talks" | relative_url }}">{{ "Talks" | escape }}</a>
   </h2>
   <h2 style="text-align:center">
-    <a class="page-link" href="{{ "/about" | relative_url }}">{{ "Me" | escape }}</a>
+    <a href="{{ "/time" | relative_url }}">{{ "Time" | escape }}</a>
   </h2>
   <h2 style="text-align:center">
-    <a class="page-link" style="text-align:center;color:#fafafa" href="{{ "/wormhole" | relative_url }}">{{ "(wormhole)" | escape }}</a>
+    <a href="{{ "/assets/CV.pdf" | relative_url }}">{{ "CV" | escape }}</a>
+  </h2>
+  <h2 style="text-align:center">
+    <a href="{{ "/me" | relative_url }}">{{ "Me" | escape }}</a>
+  </h2>
+  <h2 style="text-align:center">
+    <a style="text-align:center;color:#fafafa" href="{{ "/wormhole" | relative_url }}">{{ "(wormhole)" | escape }}</a>
   </h2>
 
   <hr>
@@ -31,4 +37,4 @@
     <a href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_id }}"><span class="icon icon--scholar">{% include icon-scholar.svg %}</span></a>
   </p>
 
-</header>
+</header> 

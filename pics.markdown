@@ -17,13 +17,16 @@
 *K. and I, St Albans.*
 
 ![]({{ "/assets/pics/malaandi.jpeg" | relative_url }}) <br/>
-*Mala and I, Hyde Park, London.*
+*Mala and I, some park in London.*
 
 ![]({{ "/assets/pics/morganandi.jpeg" | relative_url }}) <br/>
 *Morgan and I, some vet practice in Modica.*
 
 ![]({{ "/assets/pics/pfizer.jpeg" | relative_url }}) <br/>
 *Self-portrait on my first COVID-19 Vaccine, London.*
+
+![]({{ "/assets/pics/metate.jpeg" | relative_url }}) <br/>
+*Self-portrait, Tate Modern, London.*
 
 ![]({{ "/assets/pics/mekings.jpeg" | relative_url }}) <br/>
 *Self-portrait, somewhere around King's Cross, London.*
@@ -38,4 +41,4 @@
 *Self-portrait, somewhere around Sloane Square, London.*
 
 ![]({{ "/assets/pics/somewhereyellow.jpeg" | relative_url }}) <br/>
-*Self-portrait, some Art Gallery in London.*
+*Me in yellow, picture by B., some Art Gallery in London.*

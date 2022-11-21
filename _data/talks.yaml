@@ -15,6 +15,7 @@
   title: "Understanding and Extending Subgraph GNNs by Rethinking their Symmetries"
   venue: Learning on Graphs and Geometry Reading Group
   link: https://twitter.com/HannesStaerk/status/1592174079892594688
+  playback: https://www.youtube.com/watch?v=M5owHERuVcE
   tldr: "Many concurrent works seem to share a similar underlying intuition: to represent a graph by processing subgraphs generated via some simple selection policy. Inspired by a novel symmetry analyses for the most prominent of these methods – those where subgraphs are in a 1:1 correspondence with nodes in the original graph – we prove an upper-bound on their expressive power and conceive a framework serving as a design space for future new equivariant node-based subgraph architectures."
   co:
     - Beatrice Bevilacqua

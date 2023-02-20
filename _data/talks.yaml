@@ -10,6 +10,18 @@
 #   co:
 #   works: 
 -
+  month: 12
+  year: 2022
+  title: "Exploring the practical and theoretical landscape of expressive Graph Neural Networks"
+  playback: https://www.youtube.com/watch?v=ASQYjbUBYzs
+  venue: Learning on Graphs Conference 2022
+  slides: https://drive.google.com/drive/folders/1Q3PjpuP7FoY38Ik79R21k67tiA5p8uey
+  link: https://logconference.org/schedule-tutorials/#exploring-the-practical-and-theoretical-landscape-of-expressive-graph-neural-networks
+  tldr: "The tutorial reviews the most prominent expressive GNNs, categorises them into different families, and draws interesting connections between them. This is accomplished through a series of practical coding sessions and an organic overview of the literature landscape. We aim to convey the importance of studying the expressive power of GNNs and make this field more accessible to our community, especially practitioners and newcomers."
+  co:
+    - Beatrice Bevilacqua
+    - Haggai Maron
+-
   month: 11
   year: 2022
   title: "Understanding and Extending Subgraph GNNs by Rethinking their Symmetries"

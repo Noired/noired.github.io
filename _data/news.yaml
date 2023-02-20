@@ -1,10 +1,10 @@
 -
   month: 1
-  year 2023
+  year: 2023
   text: "Our paper <a href='https://arxiv.org/abs/2209.15486'>Graph Neural Networks for Link Prediction with Subgraph Sketching</a> has been accepted at ICLR 2023 as a notable, top 5% paper!"
 -
   month: 1
-  year 2023
+  year: 2023
   text: "The <a href='https://www.youtube.com/watch?v=ASQYjbUBYzs'>video</a> of our tutorial 'Exploring the practical and theoretical landscape of expressive Graph Neural Networks' is available on youtube :)"
 -
   month: 12

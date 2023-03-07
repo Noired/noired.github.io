@@ -10,6 +10,25 @@
 #   co:
 #   works: 
 -
+  month: 3
+  year: 2023
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks"
+  venue: "Yves-Alexandre de Montjoye's Group Talks (Imperial College London)"
+  works: 
+    - https://arxiv.org/abs/2206.11140
+    - https://arxiv.org/abs/2110.02910
+  tldr: "Our latest two works on subgraphs for more expressive GNNs lined up to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. We prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+-
+  month: 3
+  year: 2023
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks"
+  venue: Course on Geometric Deep Learning at Oxford University – Lecture
+  link: https://twitter.com/mmbronstein/status/1633062949282541569
+  works: 
+    - https://arxiv.org/abs/2206.11140
+    - https://arxiv.org/abs/2110.02910
+  tldr: "Our latest two works on subgraphs for more expressive GNNs lined up to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. We prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+-
   month: 12
   year: 2022
   title: "Exploring the practical and theoretical landscape of expressive Graph Neural Networks"
@@ -36,10 +55,10 @@
 -
   month: 11
   year: 2022
-  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks (GNNs)"
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks"
   venue: "Simone Scardapane's Group Talks (Sapienza)"
   link: https://www.sscardapane.it/seminars/subgraph-gnn
-  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. Ee prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. We prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
   co:
     - Beatrice Bevilacqua
   works: 
@@ -48,9 +67,9 @@
 -
   month: 7
   year: 2022
-  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks (GNNs)"
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks"
   venue: Meta AI orgs Reading Meeting
-  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. Ee prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. We prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
   co:
     - Beatrice Bevilacqua
   works: 
@@ -59,10 +78,10 @@
 -
   month: 7
   year: 2022
-  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks (GNNs)"
-  venue: "Maks Ovsjanikov's Group Talks (EPFL)"
+  title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks"
+  venue: "Maks Ovsjanikov's Group Talks (École Polytechnique, France)"
   link: https://www.lix.polytechnique.fr/~maks/
-  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. Ee prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
+  tldr: "We line up our latest two works on subgraphs for more expressive GNNs to tell a coherent story. In the first part of the talk we show the design of a novel framework (ESAN) to process generic bags of subgraphs in an equivariant manner. We show that this approach effectively increases the expressive power of MPNNs. Then, we notice a surge in concurrent approaches which – sometimes unwittingly – make use of subgraphs for powerful graph representations. In the second part, a novel symmetry analysis allows to unify and better characterise these approaches when using a node-based selection policy. We prove an upper-bound on their expressive power and conceive a framework serving as a design space for equivariant node-based subgraph methods."
   co:
     - Beatrice Bevilacqua
   works: 

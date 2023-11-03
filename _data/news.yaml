@@ -3,15 +3,15 @@
   year: 2023
   text: "Big news: I have just discussed my PhD thesis with examiners <a href='https://www.imperial.ac.uk/people/b.glocker'> Prof. Ben GLocker</a> and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/'>Prof. Yaron Lipman</a>. I am excited to share I have passed the viva examination <i>without corrections</i>, this marking the (successful) end of my PhD journey :D"
 -
-  month: 08
+  month: 8
   year: 2023
   text: "It's been a while, huh? ... Well, these past months I've been mostly working on my PhD thesis 'Expressive and Efficient Graph Neural Networks'. I am happy to share that I have finally submitted it!"
 -
-  month: 05
+  month: 5
   year: 2023
   text: "New preprint out: <a href='https://arxiv.org/abs/2305.10498'>Edge Directionality Improves Learning on Heterophilic Graphs</a>. We study how to handle directed graphs in a principled manner (and what are the theoretical and practical benefits of the approach, especially in heterophilic settings)."
 -
-  month: 04
+  month: 4
   year: 2023
   text: "Our paper <a href='https://arxiv.org/abs/2303.02918'>Graph Positional Encoding via Random Feature Propagation</a> has been accepted to ICML 2023!"
 -

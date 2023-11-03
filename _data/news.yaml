@@ -1,4 +1,12 @@
 -
+  month: 11
+  year: 2023
+  text: "Big news: I have just discussed my PhD thesis with examiners <a href='https://www.imperial.ac.uk/people/b.glocker> Prof. Ben GLocker</a> and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/'>Prof. Yaron Lipman</a>. I am excited to share I have passed the viva examination <i>without corrections</i>, this marking the (successful) end of my PhD journey :D"
+-
+  month: 08
+  year: 2023
+  text: "It's been a while, huh? ... Well, these past months I've been mostly working on my PhD thesis 'Expressive and Efficient Graph Neural Networks'. I am happy to share that I have finally submitted it!"
+-
   month: 3
   year: 2023
   text: "I had the honour to <a href='https://twitter.com/mmbronstein/status/1633062949282541569'>give a talk as the penultimate lecture</a> of the Geometric Deep Learning course at Oxford University. A great experience with a lot of interesting questions from the students :)"

@@ -5,6 +5,7 @@
   venue: (under submission)
   link: https://arxiv.org/abs/2305.10498
   code: https://github.com/emalgorithm/directed-graph-neural-network
+  post: https://towardsdatascience.com/direction-improves-graph-learning-170e797e94fe
   lead: False
 -
   title: Graph Positional Encoding via Random Feature Propagation
@@ -22,6 +23,7 @@
   thumbnail: ./assets/thumbnails/elph.png
   comment: Notable top 5% paper
   code: https://github.com/melifluos/subgraph-sketching
+  video: https://www.youtube.com/watch?v=TPqR1xG9wgY
   lead: False
 -
   title: Understanding and Extending Subgraph GNNs by Rethinking Their Symmetries

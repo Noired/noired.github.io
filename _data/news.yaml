@@ -7,6 +7,14 @@
   year: 2023
   text: "It's been a while, huh? ... Well, these past months I've been mostly working on my PhD thesis 'Expressive and Efficient Graph Neural Networks'. I am happy to share that I have finally submitted it!"
 -
+  month: 05
+  year: 2023
+  text: "New preprint out: <a href='https://arxiv.org/abs/2305.10498'>Edge Directionality Improves Learning on Heterophilic Graphs</a>. We study how to handle directed graphs in a principled manner (and what are the theoretical and practical benefits of the approach, especially in heterophilic settings)."
+-
+  month: 04
+  year: 2023
+  text: "Our paper <a href='https://arxiv.org/abs/2303.02918'>Graph Positional Encoding via Random Feature Propagation</a> has been accepted to ICML 2023!"
+-
   month: 3
   year: 2023
   text: "I had the honour to <a href='https://twitter.com/mmbronstein/status/1633062949282541569'>give a talk as the penultimate lecture</a> of the Geometric Deep Learning course at Oxford University. A great experience with a lot of interesting questions from the students :)"

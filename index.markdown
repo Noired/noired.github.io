@@ -5,7 +5,7 @@ title: Home
 
 # _{{ site.title | default: site.github.repository_name }}_
 
-Hey! I am Fabrizio. I am a PhD candidate at Imperial College London, advised by Prof. Michael Bronstein.
+Hey! I am Fabrizio. I have just obtained a PhD in Computing from Imperial College London under the supervision of Prof. Michael Bronstein.
 
 I broadly work on _Deep Learning for graph-structured data_, arguably the most popular form of [Geometric Deep Learning](https://geometricdeeplearning.com/).
 

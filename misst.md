@@ -18,6 +18,7 @@ title: MissT
 [miss T] Please come back later, and I promise I will              
          show you the way through these odd backrooms.             
 
+
 +----------------------------+
 |  <a href="/index.html">Ok, show me the way back</a>  |
 +----------------------------+
@@ -32,10 +33,10 @@ title: MissT
             Let me ask my friend, Miss Turtle, to guide            
             you through the paths of this dark, odd land.          
 
-[rabbit(?)] You can call her "Miss T"                             
+[rabbit(?)] You can call her "Miss T".                             
 
                                                      Not sure [you]
 
-[rabbit(?)] Are you  L O S T  ?                                    
+[rabbit(?)] Are you  l o s t ?                                     
 
 </pre>

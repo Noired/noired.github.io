@@ -13,7 +13,8 @@ title: Rabbithole_R
             Let me ask my friend, Miss Turtle, to guide            
             you through the paths of this dark, odd land.          
 
-[rabbit(?)] You can call her "Miss T"                             
+[rabbit(?)] You can call her "Miss T".                             
+
 
 +---------------+       +---------------------------+
 |  <a href="/misst.html">Sounds good</a>  |       |  <a href="/index.html">Sorry, no time to waste</a>  |
@@ -23,6 +24,6 @@ title: Rabbithole_R
 
                                                      Not sure [you]
 
-[rabbit(?)] Are you  L O S T  ?                                    
+[rabbit(?)] Are you  l o s t ?                                     
 
 </pre>

@@ -7,9 +7,10 @@ title: Rabbithole
 
 -------------------------------------------------------------------
 
-[rabbit(?)] Are you  L O S T  ?                                    
+[rabbit(?)] Are you  l o s t ?                                     
 
-+---------------+       +------------+
-|  <a href="/index.html">... Indeed!</a>  |       |  <a href="/rabbithole_r.html">Not sure</a>  |
-+---------------+       +------------+
+
++-------+       +------------+
+|  <a href="/index.html">Yes</a>  |       |  <a href="/rabbithole_r.html">Not sure</a>  |
++-------+       +------------+
 </pre>

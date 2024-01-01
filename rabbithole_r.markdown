@@ -19,11 +19,3 @@ title: Rabbithole_R
 +---------------+       +---------------------------+
 |  <a href="/misst.html">Sounds good</a>  |       |  <a href="/index.html">Sorry, no time to waste</a>  |
 +---------------+       +---------------------------+
-
--------------------------------------------------------------------
-
-                                                     Not sure [you]
-
-[rabbit(?)] Are you  l o s t ?                                     
-
-</pre>

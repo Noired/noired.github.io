@@ -22,21 +22,3 @@ title: MissT
 +----------------------------+
 |  <a href="/index.html">Ok, show me the way back</a>  |
 +----------------------------+
-
--------------------------------------------------------------------
-
-                                                  Sounds good [you]
-
-[rabbit(?)] Well, good. Certainty is a fallacy anyway...           
-
-[rabbit(?)] I am afraid, though, time is my enemy.                 
-            Let me ask my friend, Miss Turtle, to guide            
-            you through the paths of this dark, odd land.          
-
-[rabbit(?)] You can call her "Miss T".                             
-
-                                                     Not sure [you]
-
-[rabbit(?)] Are you  l o s t ?                                     
-
-</pre>

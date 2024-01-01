@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {background-color: black;}
+      a {color: #ffe6e6; text-decoration: none}
+      pre {color: #ffe6e6;}
+      @media only screen and (max-width: 480px) {
+      pre {
+        font-size: 9px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <center>
+        {{ content }}
+        </center>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

@@ -1,7 +1,11 @@
 -
+  month: 1
+  year: 2024
+  text: "Quite an update: I have just started as a Postdoctoral Fellow researcher at Technion (Israel), where I will work with Prof. Haggai Maron on Equivariance, Expressiveness, Graph Neural Networks, Geometric Deep Learning and friends :)"
+-
   month: 11
   year: 2023
-  text: "Big news: I have just discussed my PhD thesis with examiners <a href='https://www.imperial.ac.uk/people/b.glocker'> Prof. Ben GLocker</a> and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/'>Prof. Yaron Lipman</a>. I am excited to share I have passed the viva examination <i>without corrections</i>, this marking the (successful) end of my PhD journey :D"
+  text: "Big news: I have just discussed my PhD thesis with examiners <a href='https://www.imperial.ac.uk/people/b.glocker'> Prof. Ben Glocker</a> and <a href='https://www.wisdom.weizmann.ac.il/~ylipman/'>Prof. Yaron Lipman</a>. I am excited to share I have passed the viva examination <i>without corrections</i>, this marking the (successful) end of my PhD journey :D"
 -
   month: 8
   year: 2023

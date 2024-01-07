@@ -22,3 +22,8 @@ title: MissT
 +----------------------------+
 |  <a href="/index.html">Ok, show me the way back</a>  |
 +----------------------------+
+
+...
++------------------------------------------+
+|  <a href="/ardenti.html">Is everything connected to everything?</a>  |
++------------------------------------------+

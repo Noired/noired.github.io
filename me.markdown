@@ -27,5 +27,3 @@ In the year of my thesis I made amazing friends to which I am still quite affect
 Back to techical stuff… From my thesis work I published a paper in the proceedings of the 2018 International Joint Conference on Neural Networks – it was hosted in Brazil back then, such a shame my advisors went there instead of me. A few months afterwards, another follow-up work from my thesis got accepted at the [2018 conference on Computational Intelligence Methods for Bioinformatics and Biostatistics](https://eventos.fct.unl.pt/cibb2018/). That was held in Caparica (close to Lisbon) instead, and I managed to fly there and present my paper in person. It was my very first conference, and probably the one I liked the most so far. It was 'intimate', attended by clever people, settled in the beautiful location.
 
 Well, at this point, the rest of the story you can derive it from the remaining [pages]({{ "/time" | relative_url }}) of this website, right?
-
-Ok, now take a look at [these]({{ "/pics" | relative_url }}) pics if you're craving for some visual after all this text ;)

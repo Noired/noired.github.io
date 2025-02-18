@@ -1,7 +1,59 @@
 -
   month: 1
+  year: 2025
+  text: "New preprint out: <a href='https://arxiv.org/pdf/2501.03113'>Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality</a> – we employ walk-based centrality measures for subgraph sampling to drastically speed-up Subgraph GNNs and retain discriminative power!"
+-
+  month: 1
+  year: 2025
+  text: "Our paper <a href='https://arxiv.org/pdf/2408.05486'>Topological Blindspots: Understanding and Extending Topological Deep Learning Through the Lens of Expressivity</a> has been selected for an oral presentation at ICLR 2025 :)"
+-
+  month: 12
+  year: 2024
+  text: "I have just held a Keynote Talk at the <a href='https://sites.google.com/student.unisi.it/log24siena/program/keynotes'>Italian LoG 2024 Meetup in Siena</a> on my works related to Subgraph GNNs. What a nice atmosphere and great community."
+-
+  month: 12
+  year: 2024
+  text: "Our <a href='https://arxiv.org/pdf/2406.09291'>Flexible, Equivariant Framework for Subgraph GNNs via Graph Products and Graph Coarsening</a> received the Best Paper Award at the NeurIPS 2024 <a href='https://www.neurreps.org/'>NeurReps</a> workshop, after being presented as an oral!"
+-
+  month: 11
+  year: 2024
+  text: "I am honoured to have been selected as <a href='https://neurips.cc/Conferences/2024/ProgramCommittee'>Top Reviewer</a> at NeurIPS 2024!"
+-
+  month: 10
+  year: 2024
+  text: "I am co-organising <a href='https://sites.google.com/view/graph-learning-on-weds'>GLOW (Graph Learning On Wednesdays)</a>, a new monthly Graph Learning reading group starting in October 2024. Happy to explore new formats and topics to bring our community together and discuss where we are heading!"
+-
+  month: 10
+  year: 2024
+  text: "Our paper <a href='https://arxiv.org/pdf/2412.17609'>Towards Foundation Models on Graphs: An Analysis on Cross-Dataset Transfer of Pretrained GNNs</a> will be presented at the NeurIPS 2024 workshop on <a href='https://www.neurreps.org/'>Symmetry and Geometry in Neural Representations (NeurReps)</a>. We experimentally explore the extent to which pretrained Graph Neural Networks can be applied across datasets, an effort requiring to be agnostic to dataset-specific features and their encodings."
+-
+  month: 9
+  year: 2024
+  text: "Happy to share our paper <a href='https://arxiv.org/pdf/2406.09291'>Flexible, Equivariant Framework for Subgraph GNNs via Graph Products and Graph Coarsening</a> has been accepted as a poster at NeurIPS 2024 :)"
+-
+  month: 8
+  year: 2024
+  text: "Excited to be invited as a Keynote Speaker at the <a href='https://sites.google.com/student.unisi.it/log24siena/program/keynotes'>Italian LoG 2024 Meetup in Siena</a> happening in December :)"
+-
+  month: 7
+  year: 2024
+  text: "I just took part as a panelist at the ICML 2024 Graph Machine Learning social -- very interesting discussions on the new emerging directions of Graph Learning :)"
+-
+  month: 5
+  year: 2024
+  text: "Our position paper <a href='https://arxiv.org/abs/2402.02287'>Future Directions in the Theory of Graph Machine Learning</a> has been accepted at ICML 2024 :) Come at the poster session to discuss the current status of theoretical advancements for learning on graphs."
+-
+  month: 3
+  year: 2024
+  text: "I am excited to share I will be spending some time in Vienna! I will be visiting Prof. Thomas Gärtners' Lab at TU Wien. :)"
+-
+  month: 1
   year: 2024
   text: "Quite an update: I have just started as a Postdoctoral Fellow researcher at Technion (Israel), where I will work with Prof. Haggai Maron on Equivariance, Expressiveness, Graph Neural Networks, Geometric Deep Learning and friends :)"
+-
+  month: 11
+  year: 2023
+  text: "Happy to share 'Edge Directionality Improves Learning on Heterophilic Graphs' has been accepted to presented at the LoG 2023 conference!"
 -
   month: 11
   year: 2023

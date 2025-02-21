@@ -1,4 +1,12 @@
 -
+  month: 2
+  year: 2025
+  text: "Just released a <a href='https://arxiv.org/abs/2502.14546'>new preprint</a>: a position paper where we discuss the problematic aspects of current benchmarking datasets and practices in Graph Learning. We experimentally validate our claims and propose possible solutions."
+-
+  month: 2
+  year: 2025
+  text: "We have just held an amazing GLOW session today. More than fifty researchers gathered to discuss together the past, present and future of Machine Learning on graphs. It was super fun to moderate it :D"
+-
   month: 1
   year: 2025
   text: "New preprint out: <a href='https://arxiv.org/pdf/2501.03113'>Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality</a> – we employ walk-based centrality measures for subgraph sampling to drastically speed-up Subgraph GNNs and retain discriminative power!"

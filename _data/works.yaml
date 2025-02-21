@@ -1,8 +1,58 @@
 -
+  title: "Position: Graph Learning Will Lose Relevance Due To Poor Benchmarks"
+  authors: Maya Bechler-Speicher*, Ben Finkelshtein*, Fabrizio Frasca*, Luis Müller*, Jan Tönshoff*, Antoine Siraudin, Viktor Zaverkin, Michael M. Bronstein, Mathias Niepert, Bryan Perozzi, Mikhail Galkin, Christopher Morris
+  abstract: "While machine learning on graphs has demonstrated promise in drug design and molecular property prediction, significant benchmarking challenges hinder its further progress and relevance. Current benchmarking practices often lack focus on transformative, real-world applications, favoring narrow domains like two-dimensional molecular graphs over broader, impactful areas such as combinatorial optimization, relational databases, or chip design. Additionally, many benchmark datasets poorly represent the underlying data, leading to inadequate abstractions and misaligned use cases. Fragmented evaluations and an excessive focus on accuracy further exacerbate these issues, incentivizing overfitting rather than fostering generalizable insights. These limitations have prevented the development of truly useful graph foundation models. This position paper calls for a paradigm shift toward more meaningful benchmarks, rigorous evaluation protocols, and stronger collaboration with domain experts to drive impactful and reliable advances in graph learning research, unlocking the potential of graph learning."
+  venue: (under submission)
+  thumbnail: ./assets/thumbnails/bench.png
+  link: https://arxiv.org/abs/2502.14546
+  lead: True
+-
+  title: "Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality"
+  authors: Joshua Southern*, Yam Eitan, Guy Bar-Shalom, Michael Bronstein, Haggai Maron, Fabrizio Frasca*
+  abstract: "We propose an expressive and efficient approach that combines the strengths of two prominent extensions of Graph Neural Networks (GNNs): Subgraph GNNs and Structural Encodings (SEs). Our approach leverages walk-based centrality measures, both as a powerful form of SE and also as a subgraph selection strategy for Subgraph GNNs. By drawing a connection to perturbation analysis, we highlight the effectiveness of centrality-based sampling, and show it significantly reduces the computational burden associated with Subgraph GNNs. Further, we combine our efficient Subgraph GNN with SEs derived from the calculated centrality and demonstrate this hybrid approach, dubbed HyMN, gains in discriminative power. HyMN effectively addresses the expressiveness limitations of Message Passing Neural Networks (MPNNs) while mitigating the computational costs of Subgraph GNNs. Through a series of experiments on synthetic and real-world tasks, we show it outperforms other subgraph sampling approaches while being competitive with full-bag Subgraph GNNs and other state-of-the-art approaches with a notably reduced runtime."
+  venue: (under submission)
+  thumbnail: ./assets/thumbnails/hymn.png
+  link: https://arxiv.org/abs/2501.03113
+  code: https://github.com/jks17/HyMN/
+  lead: True
+-
+  title: "Towards Foundation Models on Graphs: An Analysis on Cross-Dataset Transfer of Pretrained GNNs"
+  authors: Fabrizio Frasca, Fabian Jogl, Moshe Eliasof, Matan Ostrovsky, Carola-Bibiane Schönlieb, Thomas Gärtner, Haggai Maron
+  abstract: "To develop a preliminary understanding towards Graph Foundation Models, we study the extent to which pretrained Graph Neural Networks can be applied across datasets, an effort requiring to be agnostic to dataset-specific features and their encodings. We build upon a purely structural pretraining approach and propose an extension to capture feature information while still being feature-agnostic. We evaluate pretrained models on downstream tasks for varying amounts of training samples and choices of pretraining datasets. Our preliminary results indicate that embeddings from pretrained models improve generalization only with enough downstream data points and in a degree which depends on the quantity and properties of pretraining data. Feature information can lead to improvements, but currently requires some similarities between pretraining and downstream feature spaces."
+  venue: Symmetry and Geometry in Neural Representations (NeurReps) @ NeurIPS 2024
+  link: https://arxiv.org/abs/2412.17609
+  thumbnail: ./assets/thumbnails/struct.png
+  lead: True
+-
+  title: "Topological Blindspots: Understanding and Extending Topological Deep Learning Through the Lens of Expressivity"
+  authors: Yam Eitan*, Yoav Gelberg*, Guy Bar-Shalom, Fabrizio Frasca, Michael Bronstein, Haggai Maron
+  abstract: "Topological deep learning (TDL) is a rapidly growing field that seeks to leverage topological structure in data and facilitate learning from data supported on topological objects, ranging from molecules to 3D shapes. Most TDL architectures can be unified under the framework of higher-order message-passing (HOMP), which generalizes graph message-passing to higher-order domains. In the first part of the paper, we explore HOMP's expressive power from a topological perspective, demonstrating the framework's inability to capture fundamental topological and metric invariants such as diameter, orientability, planarity, and homology. In addition, we demonstrate HOMP's limitations in fully leveraging lifting and pooling methods on graphs. To the best of our knowledge, this is the first work to study the expressivity of TDL from a \emph{topological} perspective. In the second part of the paper, we develop two new classes of architectures -- multi-cellular networks (MCN) and scalable MCN (SMCN) -- which draw inspiration from expressive GNNs. MCN can reach full expressivity, but scaling it to large data objects can be computationally expansive. Designed as a more scalable alternative, SMCN still mitigates many of HOMP's expressivity limitations. Finally, we create new benchmarks for evaluating models based on their ability to learn topological properties of complexes. We then evaluate SMCN on these benchmarks and on real-world graph datasets, demonstrating improvements over both HOMP baselines and expressive graph methods, highlighting the value of expressively leveraging topological information. Code and data are available at https://github.com/yoavgelberg/SMCN."
+  venue: ICLR 2025
+  link: https://arxiv.org/abs/2408.05486
+  code: https://github.com/yoavgelberg/SMCN
+  comment: Oral (1.8% acceptance rate)
+  lead: False
+-
+  title: "A Flexible, Equivariant Framework for Subgraph GNNs via Graph Products and Graph Coarsening"
+  authors: Guy Bar-Shalom*, Yam Eitan*, Fabrizio Frasca, Haggai Maron
+  abstract: "Subgraph Graph Neural Networks (Subgraph GNNs) enhance the expressivity of message-passing GNNs by representing graphs as sets of subgraphs. They have shown impressive performance on several tasks, but their complexity limits applications to larger graphs. Previous approaches suggested processing only subsets of subgraphs, selected either randomly or via learnable sampling. However, they make suboptimal subgraph selections or can only cope with very small subset sizes, inevitably incurring performance degradation. This paper introduces a new Subgraph GNNs framework to address these issues. We employ a graph coarsening function to cluster nodes into super-nodes with induced connectivity. The product between the coarsened and the original graph reveals an implicit structure whereby subgraphs are associated with specific sets of nodes. By running generalized message-passing on such graph product, our method effectively implements an efficient, yet powerful Subgraph GNN. Controlling the coarsening function enables meaningful selection of any number of subgraphs while, contrary to previous methods, being fully compatible with standard training techniques. Notably, we discover that the resulting node feature tensor exhibits new, unexplored permutation symmetries. We leverage this structure, characterize the associated linear equivariant layers and incorporate them into the layers of our Subgraph GNN architecture. Extensive experiments on multiple graph learning benchmarks demonstrate that our method is significantly more flexible than previous approaches, as it can seamlessly handle any number of subgraphs, while consistently outperforming baseline approaches."
+  venue: NeurIPS 2024 & Symmetry and Geometry in Neural Representations (NeurReps) @ NeurIPS 2024
+  link: https://arxiv.org/abs/2406.09291
+  code: https://github.com/BarSGuy/Efficient-Subgraph-GNNs
+  comment: Best Paper Award and Oral at the Symmetry and Geometry in Neural Representations (NeurReps) @ NeurIPS 2024
+  lead: False
+- 
+  title: "Future Directions in the Theory of Graph Machine Learning"
+  authors: Christopher Morris, Fabrizio Frasca, Nadav Dym, Haggai Maron, İsmail İlkan Ceylan, Ron Levie, Derek Lim, Michael Bronstein, Martin Grohe, Stefanie Jegelka
+  abstract: "Machine learning on graphs, especially using graph neural networks (GNNs), has seen a surge in interest due to the wide availability of graph data across a broad spectrum of disciplines, from life to social and engineering sciences. Despite their practical success, our theoretical understanding of the properties of GNNs remains highly incomplete. Recent theoretical advancements primarily focus on elucidating the coarse-grained expressive power of GNNs, predominantly employing combinatorial techniques. However, these studies do not perfectly align with practice, particularly in understanding the generalization behavior of GNNs when trained with stochastic first-order optimization techniques. In this position paper, we argue that the graph machine learning community needs to shift its attention to developing a balanced theory of graph machine learning, focusing on a more thorough understanding of the interplay of expressive power, generalization, and optimization."
+  venue: ICML 2024
+  link: https://arxiv.org/pdf/2402.02287
+  lead: False
+-
   title: Edge Directionality Improves Learning on Heterophilic Graphs
   authors: Emanuele Rossi, Bertrand Charpentier, Francesco Di Giovanni, Fabrizio Frasca, Stephan Günnemann, Michael M. Bronstein
   abstract: "Graph Neural Networks (GNNs) have become the de-facto standard tool for modeling relational data. However, while many real-world graphs are directed, the majority of today's GNN models discard this information altogether by simply making the graph undirected. The reasons for this are historical: 1) many early variants of spectral GNNs explicitly required undirected graphs, and 2) the first benchmarks on homophilic graphs did not find significant gain from using direction. In this paper, we show that in heterophilic settings, treating the graph as directed increases the effective homophily of the graph, suggesting a potential gain from the correct use of directionality information. To this end, we introduce Directed Graph Neural Network (Dir-GNN), a novel general framework for deep learning on directed graphs. Dir-GNN can be used to extend any Message Passing Neural Network (MPNN) to account for edge directionality information by performing separate aggregations of the incoming and outgoing edges. We prove that Dir-GNN matches the expressivity of the Directed Weisfeiler-Lehman test, exceeding that of conventional MPNNs. In extensive experiments, we validate that while our framework leaves performance unchanged on homophilic datasets, it leads to large gains over base models such as GCN, GAT and GraphSage on heterophilic benchmarks, outperforming much more complex methods and achieving new state-of-the-art results."
-  venue: (under submission)
+  venue: LoG 2024
   link: https://arxiv.org/abs/2305.10498
   code: https://github.com/emalgorithm/directed-graph-neural-network
   post: https://towardsdatascience.com/direction-improves-graph-learning-170e797e94fe

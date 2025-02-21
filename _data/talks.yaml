@@ -10,6 +10,36 @@
 #   co:
 #   works: 
 -
+    month: 12
+    year: 2024
+    title: "Keynote: Advances in Subgraph GNNs for Expressive and Efficient Learning on Graphs"
+    venue: "LoG 2024 Italian Meetup (Keynote Speaker)"
+    slides: https://drive.google.com/file/d/1Qr233RTJgl2D2QxXMN926hUlth-w3equ/view?usp=sharing
+    tldr: "In this keynote talk, I discuss recent advances in Graph Representation Learning, with a focus on Subgraph Graph Neural Networks (Subgraph GNNs) as more expressive alternatives to traditional message-passing approaches. I begin by exploring the concept of expressive power and the limitations of conventional methods before introducing Subgraph GNNs. While these models offer greater flexibility and expressiveness, they come with the challenge of high computational complexity due to modeling graphs as bags of subgraphs. At the core of the talk, I present HyMN, a novel Subgraph GNN that balances efficiency and expressiveness through subgraph sampling and Structural Encodings (SEs). By leveraging walk-based node centrality measures, HyMN effectively reduces subgraph sizes while enhancing discriminative power and maintaining computational feasibility."
+    works:
+      - https://arxiv.org/abs/2110.02910
+      - https://arxiv.org/abs/2206.11140
+      - https://arxiv.org/abs/2501.03113
+-
+    month: 7
+    year: 2024
+    title: "Panel: The future and challenges of Graph Learning"
+    venue: "Graph Learning Social @ ICML 2024 (Panelist)"
+    link: https://x.com/maxthiessen_ml/status/1816104205314097286
+    tldr: "I took part as a panelist at ICML 2024 Graph Learning Social's panel to discuss on the future and challenges related to Machine Learning on graphs."
+-
+  month: 3
+  year: 2024
+  title: "Towards Expressive and Efficient Graph Neural Networks"
+  venue: "Prof. Thomas Gärtner's ML research unit at TU Wien"
+  slides: https://drive.google.com/file/d/1Hth4YJZiV9afPWdWwR5xxDeFxr_WE6OK/view?usp=drive_link
+  tldr: "A presentation on the main work underpinning my PhD thesis. We discuss jointly, in a coherent and gradual fashion, the contributions I made on designing expressive and efficient Graph Neural Networks. We begin by exploring neural architectures on simplicial complexes, a generalization of graphs that captures group-wise interactions. By lifting graphs to simplicial complexes via complete subgraphs, we introduce a hierarchical message-passing approach that surpasses traditional node-centric MPNNs. Extending this, we consider regular cell complexes, incorporating structures like simple and induced cycles for enhanced expressiveness and performance, particularly in molecular modeling. Next, we present an alternative approach that models graphs as bags of subgraphs selected by predefined policies. We design an architecture that respects symmetries, achieving high expressiveness even with efficient, weak message-passing encoders. Finally, we provide a theoretical framework, unifying related works under the bags-of-subgraphs paradigm. A novel symmetry analysis offers an upper bound on expressiveness and defines a design space for future architectures."
+  works:
+    - https://arxiv.org/abs/2103.03212
+    - https://arxiv.org/abs/2106.12575
+    - https://arxiv.org/abs/2110.02910
+    - https://arxiv.org/abs/2206.11140
+-
   month: 3
   year: 2023
   title: "Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks"

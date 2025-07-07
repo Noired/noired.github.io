@@ -23,6 +23,6 @@ I have also been a Machine Learning Researcher at Twitter Cortex from 2019 – a
 
 <hr>
 
-### Works as (co-)lead
+### Selected Works
 
 {% include work_list.html %}

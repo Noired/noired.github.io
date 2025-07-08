@@ -5,13 +5,15 @@ title: Home
 
 # _{{ site.title | default: site.github.repository_name }}_
 
-Hey! I am Fabrizio. I am a Postdoctoral Fellow at Technion, the Israel Institute of Technology. I work with [Prof. Haggai Maron](https://haggaim.github.io/) on _Geometric Deep Learning_ and, in particular, _Equivariance_, _Expressiveness_, _Graph Neural Networks_.
+Hey! I am Fabrizio. I am a Postdoctoral Fellow at Technion, working with [Prof. Haggai Maron](https://haggaim.github.io/) on _Geometric Deep Learning_.
 
-I am also one of the co-organisers of the GLOW (Graph Learning on Wednesdays) reading group – take a peek into it [here](https://sites.google.com/view/graph-learning-on-weds).
+My interests revolve around principled and effective learning over structured data, with particular emphasis on the roles of _Equivariance_ and _Expressiveness_. Recently, I've been working on architectures to learn from (structured) computational traces of Large Language Models (LLMs) for the automated detection of problematic behavioral patterns such as hallucinations. I also extensively work on methods for learning on graphs, with a focus on designing efficient and expressive Graph Neural Networks (GNNs).
 
-Previously, I have obtained a PhD in Computing from Imperial College London under the supervision of Prof. Michael Bronstein, with my research focussing on overcoming the intrinsic representational limits of Graph Neural Network. I have explored extensions of message-passing schemes that can capture non-trivial meso-scale topological patterns in networks, and equivariance to symmetries as an overarching design principle to design provably expressive architectures.
+Speaking of graphs, I am also one of the co-founders and co-organisers of the [GLOW (Graph Learning on Wednesdays)](https://sites.google.com/view/graph-learning-on-weds) reading group.
 
-In the past, I have conducted more applied research revolving around the application of Machine Learning approaches to problems in the realm of Computational Biology and Bioinformatics, in particular: drug repurposing and epigenetic gene expression regulation.
+Previously, I have obtained a PhD in Computing from Imperial College London under the supervision of Prof. Michael Bronstein, with my research focussing on overcoming the intrinsic representational limits of GNNs. I have explored extensions of message-passing schemes that can capture non-trivial meso-scale topological patterns in networks, and equivariance to symmetries as an overarching design principle to design provably expressive architectures.
+
+In the past, I have conducted more applied research on Machine Learning approaches for problems in the realm of Computational Biology and Bioinformatics, specifically, drug repurposing and epigenetic gene expression regulation.
 
 I have also been a Machine Learning Researcher at Twitter Cortex from 2019 – acquisition of [Fabula AI](https://en.wikipedia.org/wiki/Fabula_AI) – to early 2023.
 

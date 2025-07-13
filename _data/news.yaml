@@ -15,6 +15,10 @@
   year: 2025
   text: "Good news: two of our works have been accepted at ICML 2025: 'Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality' and 'Graph Learning Will Lose Relevance Due To Poor Benchmarks'. I will be in Vancouver presenting them :)"
 - 
+  month: 5
+  year: 2025
+  text: "Our paper <a href='https://arxiv.org/abs/2506.01596'>Understanding and Improving Laplacian Positional Encodings For Temporal GNNs</a> got accepted at ECML-PKDD 2025! We contribute an exploration and improved understanding of Laplacian Positional Encodings for Temporal GNNs, along wit a faster, scalable implementation :)"
+- 
   month: 3
   year: 2025
   text: "I have been <a href='https://www.logml.ai/projects/Fabrizio-Frasca.html'>selected as a mentor</a> at this year's LOGML Summer School! Super excited to take part in July :)"

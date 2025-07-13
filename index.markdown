@@ -7,7 +7,7 @@ title: Home
 
 Hey! I am Fabrizio. I am a Postdoctoral Fellow at Technion, working with [Prof. Haggai Maron](https://haggaim.github.io/) on _Geometric Deep Learning_.
 
-My interests revolve around principled and effective learning over structured data, with particular emphasis on the roles of _Equivariance_ and _Expressiveness_. Recently, I've been working on architectures to learn from (structured) computational traces of Large Language Models (LLMs) for the automated detection of problematic behavioral patterns such as hallucinations. I also extensively work on methods for learning on graphs, with a focus on designing efficient and expressive Graph Neural Networks (GNNs).
+My interests revolve around _principled and effective learning over structured data_, with particular emphasis on the roles of _Equivariance_ and _Expressiveness_. Recently, I've been working on architectures to learn from (structured) computational traces of Large Language Models (LLMs) for the automated detection of problematic behavioral patterns such as hallucinations. I also extensively work on methods for learning on graphs, with a focus on designing efficient and expressive Graph Neural Networks (GNNs).
 
 Speaking of graphs, I am also one of the co-founders and co-organisers of the [GLOW (Graph Learning on Wednesdays)](https://sites.google.com/view/graph-learning-on-weds) reading group.
 

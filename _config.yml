@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ffabffrasca
 github_username:  Noired
 google_scholar_id: PT2CDA4AAAAJ
-logo: ./assets/fab_florio.jpg
+logo: ./assets/me-caba-daft.png
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0

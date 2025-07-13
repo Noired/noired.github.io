@@ -1,4 +1,28 @@
 -
+  month: 7
+  year: 2025
+  text: "LOGML 2025 is over – what an experience it has been! Had the luck to mentor five amazing student on my project, where we explored the invariances, robustness and generalisation abilities of LLMs for graph reasoning. Met delightful people and strong researchers, and had a lot of fun."
+-
+  month: 7
+  year: 2025
+  text: "Had the honour to hold a <a href='https://drive.google.com/file/d/1v9XeybbO8i_YmV69OOxBZL2uewLmxTv4/view'>lecture</a> at Prof. Maron's course on Groups and Deep Learning – I explore the challenges of learning on graphs, focussing on the trade-offs between equivariance, expressive power, and computational complexity, and cover research advances such as random node identifiers, averaging schemes, (sub)structure encodings and the broad paradigm of Subgraph GNNs."
+-
+  month: 6
+  year: 2025
+  text: "Our <a href='https://substack.com/inbox/post/166241782'>first GLOW blogpost</a> is out on Substack. Was really a great experience to lead this effort. We summarise thoughts and opinions on the past, present and future of Graph Learning reaserch as emerging from our dedicated GLOW sessions."
+- 
+  month: 5
+  year: 2025
+  text: "Good news: two of our works have been accepted at ICML 2025: 'Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality' and 'Graph Learning Will Lose Relevance Due To Poor Benchmarks'. I will be in Vancouver presenting them :)"
+- 
+  month: 3
+  year: 2025
+  text: "I have been <a href='https://www.logml.ai/projects/Fabrizio-Frasca.html'>selected as a mentor</a> at this year's LOGML Summer School! Super excited to take part in July :)"
+- 
+  month: 3
+  year: 2025
+  text: "Our new work <a href='https://arxiv.org/abs/2503.14043'>Learning on LLM Output Signatures for Gray-Box Behavior Analysis</a> is being featured as a <b>spotlight</b> contribution at the ICLR 2025 Workshop on <a href='https://uncertainty-foundation-models.github.io/'>'Quantifying Uncertainty and Hallucination in Foundation Models'</a>! We study the problems of automated data contamination and hallucination detection in LLMs. We propose a unified gray-box approach which learns on LLM output signatures (LOS), achieving state-of-the-art performance and strong cross-model transfer."
+-
   month: 2
   year: 2025
   text: "Just released a <a href='https://arxiv.org/abs/2502.14546'>new preprint</a>: a position paper where we discuss the problematic aspects of current benchmarking datasets and practices in Graph Learning. We experimentally validate our claims and propose possible solutions."

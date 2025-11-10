@@ -1,3 +1,27 @@
+-  
+  month: 11
+  year: 2025
+  text: "Really glad to share our LOGML project 'Lost in Serialization: Invariance and Generalization of LLM Graph Reasoners' will be presented at the AAAI 2026 workshop on 'Graphs and more Complex Structures For Learning and Reasoning'!"
+-  
+  month: 11
+  year: 2025
+  text: "News from AAAI 2026: our <a href='https://arxiv.org/pdf/2503.14043'>'Beyond Next Token Probabilities'</a> has been accepted as a poster in the main conference track!"
+- 
+  month: 10
+  year: 2025
+  text: "Extremely glad I have been selected, even this year, amongst NeurIPS' <a href='https://neurips.cc/Conferences/2025/ProgramCommittee'>best reviewers!</a>"
+- 
+  month: 9
+  year: 2025
+  text: "Our paper <a href='https://arxiv.org/abs/2510.00296'>'Beyond Token Probes: Hallucination Detection via Activation Tensors with ACT-ViT'</a> has been accepted to NeurIPS 2025! See you in San Diego :)"
+- 
+  month: 9
+  year: 2025
+  text: "New preprint out: <a href='https://arxiv.org/abs/2509.24770'>'Neural Message-Passing on Attention Graphs for Hallucination Detection'</a>: we cast hallucination detection in LLMs as a learning task over the heterogeneous, directed graph determined by LLMs' computational traces, including attention maps and activations."
+- 
+  month: 9
+  year: 2025
+  text: "Just moderated a super nice GLOW session on 'Oversmoothing, Oversquashing, Heterophily, Long-Range, and more', based on Arnaiz-Rodríguez and Errica's <a href='https://arxiv.org/pdf/2505.15547'>position paper</a>. You can find a recording of the presentation <a href='https://www.youtube.com/watch?v=ufCbRlTCk0w'>here</a>."
 -
   month: 7
   year: 2025

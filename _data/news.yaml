@@ -1,4 +1,8 @@
 -  
+  month: 01
+  year: 2026
+  text: "<a href='https://arxiv.org/abs/2509.24770'>'Neural Message-Passing on Attention Graphs for Hallucination Detection'</a> has been accepted at ICLR 2026 :) See you in Rio later this year!"
+-  
   month: 11
   year: 2025
   text: "Really glad to share our LOGML project 'Lost in Serialization: Invariance and Generalization of LLM Graph Reasoners' will be presented at the AAAI 2026 workshop on 'Graphs and more Complex Structures For Learning and Reasoning'!"

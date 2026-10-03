@@ -1,8 +1,9 @@
 {% for new in site.data.news %}
-<p style='margin-top:5px;margin-bottom:20px'>
-<i><b>{{new.year}}/{{new.month}}</b></i>
-<br/>
-&emsp;{{new.text}}
-</p>
+<div style="display:flex;gap:14px;margin-bottom:12px;line-height:1.45">
+	<span style="flex:0 0 4.5em;color:#777;font-variant-numeric:tabular-nums">
+		{{new.year}}/{{ new.month | prepend: '0' | slice: -2, 2 }}
+	</span>
+	<span>{{new.text}}</span>
+</div>
 {% endfor %}
 <hr>

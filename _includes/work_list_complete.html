@@ -1,47 +1,29 @@
 <p style="font-size:12px;margin-bottom:5px"> (* indicates equal contribution) </p>
 <hr>
 {% for work in site.data.works %}
-<p style="font-size:16px;margin-bottom:7px">
-	<b>
-		{{work.title}}
-	</b>
+<p style="font-size:16px;margin-bottom:5px">
+	<b>{{work.title}}</b>
 </p>
 <p style="margin-bottom:5px">
 	{{work.authors | replace: "Fabrizio Frasca", "<u>Fabrizio Frasca</u>"}}
 </p>
-<p style="margin-bottom:10px">
-	(<a href='{{work.link}}'>paper</a>) 
-	{% if {{work.code}} %}
-	  (<a href='{{work.code}}'>code</a>)
-	{% endif %}
-	{% if {{work.post}} %}
-	  (<a href='{{work.post}}'>post</a>)
-	{% endif %}
-	{% if {{work.video}} %}
-	  (<a href='{{work.video}}'>video</a>)
-	{% endif %}
-</p>
+{% if work.venue or work.comment %}
 <p style="margin-bottom:5px">
-	{% if {{work.venue}} %}
-	  <em>
-	  	{{work.venue}}
-	  </em>
-	{% endif %}
-	{% if {{work.comment}} %}
-	  <br />
-	  <em>
-	  	<b>
-	  		{{work.comment}}
-	  	</b>
-	  </em>
-	{% endif %}
+	{% if work.venue %}<em>{{work.venue}}</em>{% endif %}
+	{% if work.venue and work.comment %}<span style="color:#777"> &middot; </span>{% endif %}
+	{% if work.comment %}<b>{{work.comment}}</b>{% endif %}
 </p>
-<p style="margin-bottom:5px">
-	<details>
-		<summary>Abstract</summary>
-		<br />
-		{{work.abstract}}
-	</details>
-</p>
+{% endif %}
+<div class="pill-links">
+	{% if work.link %}<a href='{{work.link}}'>paper</a>{% endif %}
+	{% if work.code %}<a href='{{work.code}}'>code</a>{% endif %}
+	{% if work.post %}<a href='{{work.post}}'>post</a>{% endif %}
+	{% if work.video %}<a href='{{work.video}}'>video</a>{% endif %}
+</div>
+<details style="margin-bottom:15px">
+	<summary><i>Abstract</i></summary>
+	<br />
+	{{work.abstract}}
+</details>
 <hr>
 {% endfor %}

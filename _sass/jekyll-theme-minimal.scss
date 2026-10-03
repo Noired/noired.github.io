@@ -36,7 +36,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#000000;
-  text-decoration:underlined;
+  text-decoration:underline;
 }
 
 a small {
@@ -198,6 +198,26 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+.pill-links {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  margin:6px 0 8px;
+}
+
+.pill-links a {
+  font-size:13px;
+  padding:1px 10px;
+  border:1px solid #c8c8c8;
+  border-radius:999px;
+  text-decoration:none;
+}
+
+.pill-links a:hover, .pill-links a:focus {
+  background:#f4f4f4;
+  border-color:#999;
 }
 
 @media print, screen and (max-width: 960px) {

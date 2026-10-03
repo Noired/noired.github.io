@@ -1,9 +1,12 @@
 {% for new in site.data.news limit:5 %}
-<p>
-	[{{new.year}}/{{new.month}}] <i> {{new.text}} </i>
-</p>
+<div style="display:flex;gap:14px;margin-bottom:10px;line-height:1.45">
+	<span style="flex:0 0 4.5em;color:#777;font-variant-numeric:tabular-nums">
+		{{new.year}}/{{ new.month | prepend: '0' | slice: -2, 2 }}
+	</span>
+	<span>{{new.text}}</span>
+</div>
 {% endfor %}
 
-<p style="font-size:12px;margin-top:0px;margin-bottom:5px"> 
-	... see more <a href="{{ "/time" | relative_url }}">here</a> ...
+<p style="font-size:12px;margin-top:5px;margin-bottom:5px">
+	<a href="{{ "/time" | relative_url }}">See all news &rarr;</a>
 </p>

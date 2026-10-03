@@ -1,10 +1,8 @@
 {% for talk in site.data.talks %}
 <p style="font-size:16px;margin-bottom:0px">
-	<b>
-		{{talk.title}}
-	</b>
+	<b>{{talk.title}}</b>
 </p>
-<p style="font-size:16px;margin-bottom:10px">
+<p style="font-size:16px;margin-bottom:5px">
 	{% if talk.link %}
 		<a href='{{talk.link}}'>{{talk.venue}}</a>
 	{% else %}
@@ -16,48 +14,98 @@
 		</span>
 	{% endif %}
 </p>
-{% if {{talk.co}} %}
-<p style="margin-top:5px;margin-bottom:5px">
-	<i>
-		Co-presented with: 
-		{% for speaker in talk.co %}
-			{% unless {{speaker}} contains {{talk.co.last}} %}
-				{{speaker}}, 
-			{% endunless %}
-		{% endfor %}
-		{{talk.co.last}}
-	</i>
-</p>
-{% endif %}
+{% if talk.co %}
 <p style="margin-bottom:5px">
-	{% if {{talk.playback}} %}
-	  (<a href='{{talk.playback}}'>recording</a>)
+	<i>Co-presented with: {{ talk.co | join: ", " }}</i>
+</p>
+{% endif %}
+{% if talk.playback or talk.slides %}
+<div class="pill-links">
+	{% if talk.playback %}<a href='{{talk.playback}}'>recording</a>{% endif %}
+	{% if talk.slides %}<a href='{{talk.slides}}'>slides</a>{% endif %}
+</div>
+{% endif %}
+<div style="margin-bottom:15px">
+	{% if talk.tldr %}
+	<details>
+		<summary><i>About this talk</i></summary>
+		<br />
+		{{talk.tldr}}
+	</details>
 	{% endif %}
-	{% if {{talk.slides}} %}
-	  (<a href='{{talk.slides}}'>slides</a>)
+	{% if talk.works %}
+	<details style="margin-top:5px">
+		<summary><i>Works covered</i></summary>
+		<ul style="margin-top:5px;margin-bottom:0px">
+			{% for work in talk.works %}
+				{% assign prefix = work | slice: 0, 4 %}
+				{% assign match = site.data.works | where: "link", work | first %}
+				<li>
+					{% if prefix == "http" %}
+						<a href='{{work}}'>{% if match %}{{match.title}}{% else %}{{work}}{% endif %}</a>
+					{% else %}
+						{{work}}
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	</details>
+	{% endif %}
+</div>
+<hr>
+{% endfor %}{% for talk in site.data.talks %}
+<p style="font-size:16px;margin-bottom:0px">
+	<b>{{talk.title}}</b>
+</p>
+<p style="font-size:16px;margin-bottom:5px">
+	{% if talk.link %}
+		<a href='{{talk.link}}'>{{talk.venue}}</a>
+	{% else %}
+		{{talk.venue}}
+	{% endif %}
+	{% if talk.year %}
+		<span style="color:#777;white-space:nowrap">
+			&middot; {{talk.year}}{% if talk.month %}/{{ talk.month | prepend: '0' | slice: -2, 2 }}{% endif %}
+		</span>
 	{% endif %}
 </p>
-<details>
-	<summary><i>About this talk</i></summary>
-	<br />
-	{{talk.tldr}}
-</details>
-{% if talk.works %}
-<details style="margin-top:5px;margin-bottom:15px">
-	<summary><i>Works covered</i></summary>
-	<ul style="margin-top:5px;margin-bottom:0px">
-		{% for work in talk.works %}
-			{% assign prefix = work | slice: 0, 4 %}
-			<li>
-				{% if prefix == "http" %}
-					<a href='{{work}}'>{{work}}</a>
-				{% else %}
-					{{work}}
-				{% endif %}
-			</li>
-		{% endfor %}
-	</ul>
-</details>
+{% if talk.co %}
+<p style="margin-bottom:5px">
+	<i>Co-presented with: {{ talk.co | join: ", " }}</i>
+</p>
 {% endif %}
+{% if talk.playback or talk.slides %}
+<div class="pill-links">
+	{% if talk.playback %}<a href='{{talk.playback}}'>recording</a>{% endif %}
+	{% if talk.slides %}<a href='{{talk.slides}}'>slides</a>{% endif %}
+</div>
+{% endif %}
+<div style="margin-bottom:15px">
+	{% if talk.tldr %}
+	<details>
+		<summary><i>About this talk</i></summary>
+		<br />
+		{{talk.tldr}}
+	</details>
+	{% endif %}
+	{% if talk.works %}
+	<details style="margin-top:5px">
+		<summary><i>Works covered</i></summary>
+		<ul style="margin-top:5px;margin-bottom:0px">
+			{% for work in talk.works %}
+				{% assign prefix = work | slice: 0, 4 %}
+				{% assign match = site.data.works | where: "link", work | first %}
+				<li>
+					{% if prefix == "http" %}
+						<a href='{{work}}'>{% if match %}{{match.title}}{% else %}{{work}}{% endif %}</a>
+					{% else %}
+						{{work}}
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	</details>
+	{% endif %}
+</div>
 <hr>
 {% endfor %}

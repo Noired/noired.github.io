@@ -5,14 +5,30 @@
 	</b>
 </p>
 <p style="font-size:16px;margin-bottom:10px">
-	<!-- <i> -->
-		{% if talk.link %}
-			<a href='{{talk.link}}'>{{talk.venue}}</a>
-		{% else %}
-			{{talk.venue}}
-		{% endif %}
-	<!-- </i> -->
+	{% if talk.link %}
+		<a href='{{talk.link}}'>{{talk.venue}}</a>
+	{% else %}
+		{{talk.venue}}
+	{% endif %}
+	{% if talk.year %}
+		<span style="color:#777;white-space:nowrap">
+			&middot; {{talk.year}}{% if talk.month %}/{{ talk.month | prepend: '0' | slice: -2, 2 }}{% endif %}
+		</span>
+	{% endif %}
 </p>
+{% if {{talk.co}} %}
+<p style="margin-top:5px;margin-bottom:5px">
+	<i>
+		Co-presented with: 
+		{% for speaker in talk.co %}
+			{% unless {{speaker}} contains {{talk.co.last}} %}
+				{{speaker}}, 
+			{% endunless %}
+		{% endfor %}
+		{{talk.co.last}}
+	</i>
+</p>
+{% endif %}
 <p style="margin-bottom:5px">
 	{% if {{talk.playback}} %}
 	  (<a href='{{talk.playback}}'>recording</a>)
@@ -22,31 +38,26 @@
 	{% endif %}
 </p>
 <details>
-	<summary>tl;dr</summary>
+	<summary><i>About this talk</i></summary>
 	<br />
 	{{talk.tldr}}
 </details>
-{% if {{talk.co}} %}
-<p style="margin-top:5px;margin-bottom:5px">
-	Co-presented with: 
-	{% for speaker in talk.co %}
-		{% unless {{speaker}} contains {{talk.co.last}} %}
-			{{speaker}}, 
-		{% endunless %}
-	{% endfor %}
-	{{talk.co.last}}
-</p>
-{% endif %}
-{% if {{talk.works}} %}
-<p style="margin-bottom:15px">
-	Based on: 
-	{% for work in talk.works %}
-		{% unless {{work}} contains {{talk.works.last}} %}
-			<a href='{{work}}'>{{work}}</a>, 
-		{% endunless %}
-	{% endfor %}
-	<a href='{{talk.works.last}}'>{{talk.works.last}}</a>
-</p>
+{% if talk.works %}
+<details style="margin-top:5px;margin-bottom:15px">
+	<summary><i>Works covered</i></summary>
+	<ul style="margin-top:5px;margin-bottom:0px">
+		{% for work in talk.works %}
+			{% assign prefix = work | slice: 0, 4 %}
+			<li>
+				{% if prefix == "http" %}
+					<a href='{{work}}'>{{work}}</a>
+				{% else %}
+					{{work}}
+				{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
+</details>
 {% endif %}
 <hr>
 {% endfor %}

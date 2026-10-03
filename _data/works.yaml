@@ -1,16 +1,52 @@
+# -
+#   title: 
+#   authors: 
+#   abstract: 
+#   venue: 
+#   link: 
+#   code: 
+#   post: 
+#   thumbnail: ./assets/thumbnails/elph.png
+#   comment: 
+#   lead: True
+-
+  title: "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations"
+  authors: Dvir Samuel, Guy Bar-Shalom, Fabrizio Frasca, Ethan Fetaya, Yftah Ziser, Gal Chechik, Haggai Maron
+  abstract: "Large Vision-Language Models (LVLMs) achieve impressive visual reasoning and dialogue capabilities, yet frequently hallucinate content unsupported by the visual input. Effective mitigation requires token-level localization, enabling targeted intervention without discarding the entire response. Existing detectors require expensive full-model fine-tuning, rely on external verifiers that ignore the model's generation process, or reduce internal signals to isolated features and hand-crafted statistics, discarding spatial, sequential, and relational structure. We introduce \textbf{UniProbe}, a lightweight, unified, learnable detector that models a frozen LVLM's heterogeneous computational trace from a single forward pass. UniProbe constructs a directed graph over image patches, query tokens, and generated tokens, with attention weights encoding their relations. It processes this trace with alternating structure-aware modules: a GNN for relational evidence, a ViT for 2-D visual geometry, and a GRU for response order. Interleaving them allows spatial, relational, and sequential evidence to interact throughout the detector. We further develop a streaming variant for hallucination-aware decoding, which detects and resamples hallucinated tokens during generation, and a self-adaptation strategy aligning the detector with the LVLM's own generations. Across diverse LVLM backbones, UniProbe achieves state-of-the-art token-level and object-hallucination detection. During decoding, it reduces object hallucinations by up to 55% at 1.06× the latency of standard generation." 
+  link: https://arxiv.org/abs/2608.10835
+  lead: False
+-
+  title: Permutation-Equivariant Flow Matching for Alignment-Free Neural Weight Generation
+  authors: Arkadi Piven, Yam Eitan, Guy Bar-Shalom, Fabrizio Frasca, Daniel Cremers, Thomas Dagès, Ron Kimmel, Haggai Maron
+  abstract: "A trained neural network can be represented by a parameter vector in high dimensions. Learning distributions over these vectors enables the generation of new models across various tasks and architectures. A central challenge is permutation symmetry: permuting hidden neurons can produce distant parameter vectors representing the same function. This introduces variations that a generative model must account for when learning from trained networks. Existing methods typically address this using networks derived from a common base model or costly approximate neuron alignment. We instead parameterize a flow-matching velocity field with a permutation-equivariant Graph Meta Network, enabling direct learning from independently trained networks without alignment. Extensive experiments show that our method closely reproduces the joint statistics of accuracy, functional similarity, and weight similarity of independently trained collections, providing evidence of generation beyond checkpoint memorization. A single conditional model also generates task-specific networks on heterogeneous architectures and generalizes to unseen hidden-width configurations. On a tabular domain-shift task, intermediate conditioning produces individual networks with performance comparable to logit ensembles across both domains. Taken together, our results show how permutation equivariance enables learning from diverse collections of independently trained networks without permutation alignment." 
+  link: https://arxiv.org/abs/2609.32833
+  lead: False
+-
+  title: "GraphBench: Next-generation graph learning benchmarking"
+  authors: Timo Stoll*, Chendi Qian*, Ben Finkelshtein*, Ali Parviz*, Darius Weber*, Fabrizio Frasca*, Hadar Shavit*, Antoine Siraudin*, Arman Mielke*, Erik Müller*, Marie Anastacio, Maya Bechler-Speicher, Michael Bronstein, Mikhail Galkin, Holger Hoos, Mathias Niepert, Bryan Perozzi, Jan Tönshoff, Christopher Morris
+  abstract: "Machine learning on graphs has made substantial progress across domains such as molecular property prediction and chip design. Yet benchmarking practices remain fragmented, often relying on narrow, task-specific datasets and inconsistent evaluation protocols, hindering reproducibility and broader progress. With the recent popularity of graph foundation models, these weaknesses have become apparent, as existing benchmarks are insufficient for thorough evaluation. To address these challenges, we introduce GraphBench, a comprehensive benchmark suite spanning diverse real-world domains and task settings, including node-level, edge-level, graph-level, and generative tasks. GraphBench provides standardized evaluation protocols, including consistent dataset splits and metrics for assessing out-of-distribution generalization across selected tasks, as well as a unified hyperparameter-tuning framework. We further evaluate GraphBench with recent message-passing neural networks and graph transformer models, establishing principled baselines for future research."
+  venue: ICML 2026 Workshop on Graph Foundation Models
+  link: https://arxiv.org/abs/2512.04475
+  comment: Oral and Best paper award runner-up
+  code: https://graphbench.github.io/website/
+  thumbnail: ./assets/thumbnails/graphbench.png
+  lead: True
 -
   title: "Neural Message-Passing on Attention Graphs for Hallucination Detection"
   authors: Fabrizio Frasca*, Guy Bar-Shalom*, Yftah Ziser, Haggai Maron
   abstract: "Large Language Models (LLMs) often generate incorrect or unsupported content, known as hallucinations. Existing detection methods rely on heuristics or simple models over isolated computational traces such as activations, or attention maps. We unify these signals by representing them as attributed graphs, where tokens are nodes, edges follow attentional flows, and both carry features from attention scores and activations. Our approach, CHARM, casts hallucination detection as a graph learning task and tackles it by applying GNNs over the above attributed graphs. We show that CHARM provably subsumes prior attention-based heuristics and, experimentally, it consistently outperforms other leading approaches across diverse benchmarks. Our results shed light on the relevant role played by the graph structure and on the benefits of combining computational traces, whilst showing CHARM exhibits promising zero-shot performance on cross-dataset transfer."
   link: https://arxiv.org/abs/2509.24770
   thumbnail: ./assets/thumbnails/charm.png
+  venue: ICLR 2026
   lead: True
+  post: https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the
+  code: https://github.com/Noired/charm
 - 
   title: "Lost in Serialization: Invariance and Generalization of LLM Graph Reasoners"
   authors: Daniel Herbst, Lea Karbevska, Divyanshu Kumar, Akanksha Ahuja, Fatemeh Gholamzadeh Nasrabadi, Fabrizio Frasca
   abstract: "While promising, graph reasoners based on Large Language Models (LLMs) lack built-in invariance to symmetries in graph representations. Operating on sequential graph serializations, LLMs can produce different outputs under node reindexing, edge reordering, or formatting changes, raising robustness concerns. We systemati- cally analyze these effects, studying how fine-tuning impacts encoding sensitivity as well generalization on unseen tasks. We propose a principled decomposition of graph serializations into node labeling, computational structure, and surface encoding, and evaluate LLM robustness to variations of each of these factors on a comprehensive benchmarking suite. We also contribute a novel set of spectral tasks to further assess generalization abilities of fine-tuned reasoners. Results show that larger (non-fine-tuned) models are more robust, and fine-tuning reduces sensitivity to node relabeling but may increase it to variations in structure and format, while it does not consistently improve performance on unseen tasks."
-  venue: AAAI 2026's workshop on Graphs and more Complex Structures for Learning and Reasoning
-  # link: https://arxiv.org/abs/???
+  venue: ICML 2026 Workshop on Graph Foundation Models
+  link: https://arxiv.org/abs/2511.10234
   thumbnail: ./assets/thumbnails/lost.png
   lead: True
 -
@@ -18,12 +54,14 @@
   authors: Ran Elbaz, Guy Bar-Shalom, Yam Eitan, Fabrizio Frasca, Haggai Maron
   abstract: " Permutation equivariant neural networks employing parameter-sharing schemes have emerged as powerful models for leveraging a wide range of data symmetries, significantly enhancing the generalization and computational efficiency of the resulting models. Recently, Kolmogorov-Arnold Networks (KANs) have demonstrated promise through their improved interpretability and expressivity compared to traditional architectures based on MLPs. While equivariant KANs have been explored in recent literature for a few specific data types, a principled framework for applying them to data with permutation symmetries in a general context remains absent. This paper introduces Function Sharing KAN (FS-KAN), a principled approach to constructing equivariant and invariant KA layers for arbitrary permutation symmetry groups, unifying and significantly extending previous work in this domain. We derive the basic construction of these FS-KAN layers by generalizing parameter-sharing schemes to the Kolmogorov-Arnold setup and provide a theoretical analysis demonstrating that FS-KANs have the same expressive power as networks that use standard parameter-sharing layers, allowing us to transfer well-known and important expressivity results from parameter-sharing networks to FS-KANs. Empirical evaluations on multiple data types and symmetry groups show that FS-KANs exhibit superior data efficiency compared to standard parameter-sharing layers, by a wide margin in certain cases, while preserving the interpretability and adaptability of KANs, making them an excellent architecture choice in low-data regimes."
   link: https://arxiv.org/abs/2509.24472
+  venue: ICLR 2026
   lead: False
 -
   title: "On the Expressive Power of GNN Derivatives"
   authors: Yam Eitan, Moshe Eliasof, Yoav Gelberg, Fabrizio Frasca, Guy Bar-Shalom, Haggai Maron
   abstract: "Despite significant advances in Graph Neural Networks (GNNs), their limited expressivity remains a fundamental challenge. Research on GNN expressivity has produced many expressive architectures, leading to architecture hierarchies with models of increasing expressive power. Separately, derivatives of GNNs with respect to node features have been widely studied in the context of the oversquashing and over-smoothing phenomena, GNN explainability, and more. To date, these derivatives remain unexplored as a means to enhance GNN expressivity. In this paper, we show that these derivatives provide a natural way to enhance the expressivity of GNNs. We introduce High-Order Derivative GNN (HOD-GNN), a novel method that enhances the expressivity of Message Passing Neural Networks (MPNNs) by leveraging high-order node derivatives of the base model. These derivatives generate expressive structure-aware node embeddings processed by a second GNN in an end-to-end trainable architecture. Theoretically, we show that the resulting architecture family's expressive power aligns with the WL hierarchy. We also draw deep connections between HOD-GNN, Subgraph GNNs, and popular structural encoding schemes. For computational efficiency, we develop a message-passing algorithm for computing high-order derivatives of MPNNs that exploits graph sparsity and parallelism. Evaluations on multiple graph learning benchmarks demonstrate HOD-GNN's excellent performance on popular graph learning tasks."
   link: https://arxiv.org/abs/2510.02565
+  venue: ICLR 2026
   lead: False
 - 
   title: "Beyond Token Probes: Hallucination Detection via Activation Tensors with ACT-ViT"
@@ -34,6 +72,7 @@
   link: https://arxiv.org/abs/2510.00296
   code: https://github.com/BarSGuy/ACT-ViT
   lead: True
+  post: https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the
 -
   title: "Understanding and Improving Laplacian Positional Encodings For Temporal GNNs"
   authors: Yaniv Galron, Fabrizio Frasca, Haggai Maron, Eran Treister, Moshe Eliasof
@@ -50,6 +89,7 @@
   link: https://arxiv.org/abs/2503.14043
   code: https://github.com/BarSGuy/LLM-Output-Signatures-Network
   lead: True
+  post: https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the
 -
   title: "Position: Graph Learning Will Lose Relevance Due To Poor Benchmarks"
   authors: Maya Bechler-Speicher*, Ben Finkelshtein*, Fabrizio Frasca*, Luis Müller*, Jan Tönshoff*, Antoine Siraudin, Viktor Zaverkin, Michael M. Bronstein, Mathias Niepert, Bryan Perozzi, Mikhail Galkin, Christopher Morris
@@ -247,14 +287,3 @@
   link: https://ieeexplore.ieee.org/abstract/document/8489054
   thumbnail: ./assets/thumbnails/hypgenclust.png
   lead: True
-# -
-#   title: 
-#   authors: 
-#   abstract: 
-#   venue: 
-#   link: 
-#   code: 
-#   post: 
-#   thumbnail: ./assets/thumbnails/elph.png
-#   comment: 
-#   lead: True

@@ -10,16 +10,42 @@
 #   co:
 #   works: 
 -
+  month: 9
+  year: 2026
+  title: "Invited Talk – Toward Reliable Language Models: Structure-Aware Learning on Computational Traces"
+  venue: "CIRM Workhops – Machine Learning and Signal Processing on Graphs"
+  slides: "https://docs.google.com/presentation/d/e/2PACX-1vQFUJYNVafsJ4CRgKfpEgsoYeiZh_yYgpukmaJkbfJ_uOtQhgMWu6_ekAmdrT6x4bDvm2pJgRGBtO5v/pub?start=false&loop=false&delayms=3000"
+  tldr: "LLM failure detectors mostly rely on simplistic linear models and handcrafted heuristics applied to hand-picked fragments of model internals. We argue that these 'computational traces' — such as activations, next-token distributions, and attention maps — are structured data modalities that deserve being processed by architectures with inductive biase matched to their structure, in the spirit of Geometric Deep Learning. In this talk I present a series of five works on hallucination detection, where we describe architectures to optimally process these computational traces, with a focus on employing attention-induced graphs and neural message-passing thereon as a flexibile, unifying approach. The resulting monitors are lightweight, outperform probing and heuristic baselines, and show promising transfer capabilities across tasks and LLMs."
+  link: https://conferences.cirm-math.fr/3653.html
+  works:
+    - https://arxiv.org/abs/2503.14043
+    - https://arxiv.org/abs/2510.00296
+    - https://arxiv.org/abs/2509.24770
+    - (work whose preprint will be released soon)
+    - https://arxiv.org/abs/2608.10835
+-
+  month: 3
+  year: 2026
+  title: "Invited Talk – Structure-Aware Learning: From Graph Neural Networks to reliable Foundation Models"
+  venue: "ELLIS Institute Tübingen Scientific Symposium 2026"
+  slides: "https://docs.google.com/presentation/d/e/2PACX-1vThN-Kl8dCH_biBQ5mzsTqw0kFrqGLtumJ-dqQIlQak6SwAbfMRz9iQW3Jjz1JfDVRmJ5WWlgNFqMAi/pub?start=false&loop=false&delayms=3000"
+  tldr: "In this talk I encompass salient papers from my PhD through my Postdoc, and present a series of works on principled Geometric Deep Learning approaches for learning on structured data, built, in particular, around the design patterns of symmetry-awareness, expressiveness, and scalability. I start with equivariant graph architectures that provably overcome the expressiveness limits of message-passing while staying efficient, and then I extend the same principles to learning on LLM computational traces (such as attention maps and activations) to detect failure modes such as hallucinations. I close with the prospect for a broader research programme spanning foundation model monitoring systems bridging language modelling and relational learning, and structure-aware architectures for genomics."
+  link: https://tuebingen.ellis.eu/events/ellis-institute-tubingen-scientific-symposium-2026
+  works:
+    - https://arxiv.org/abs/2206.11140
+    - https://arxiv.org/abs/2110.02910
+    - https://arxiv.org/abs/2509.24770
+-
   month: 7
   year: 2025
-  title: "Lecture: 'Graph Learning, Equivariance and Expressiveness'"
+  title: "Lecture – Graph Learning, Equivariance and Expressiveness"
   venue: Course on Groups and Deep Learning at Technion – Lecture
   slides: https://drive.google.com/file/d/1v9XeybbO8i_YmV69OOxBZL2uewLmxTv4/view?usp=sharing
   tldr: "In this lecture, I discuss learning on graphs and its key challenges, focusing on the interplay between equivariance, expressive power, and computational complexity. I present a coherent narrative that introduces these core aspects and highlights recent research aimed at navigating the trade-offs between them. We begin with feature augmentation techniques, including random feature identifiers, symmetrization methods, and substructure encodings. The lecture then transitions to the broader class of Subgraph GNNs, which aim to combine the strengths of these techniques while maintaining a domain-agnostic design."
 -
   month: 12
   year: 2024
-  title: "Keynote: 'Advances in Subgraph GNNs for Expressive and Efficient Learning on Graphs'"
+  title: "Keynote — Advances in Subgraph GNNs for Expressive and Efficient Learning on Graphs"
   venue: "LoG 2024 Italian Meetup (Keynote Speaker)"
   slides: https://drive.google.com/file/d/1Qr233RTJgl2D2QxXMN926hUlth-w3equ/view?usp=sharing
   tldr: "In this keynote talk, I discuss recent advances in Graph Representation Learning, with a focus on Subgraph Graph Neural Networks (Subgraph GNNs) as more expressive alternatives to traditional message-passing approaches. I begin by exploring the concept of expressive power and the limitations of conventional methods before introducing Subgraph GNNs. While these models offer greater flexibility and expressiveness, they come with the challenge of high computational complexity due to modeling graphs as bags of subgraphs. At the core of the talk, I present HyMN, a novel Subgraph GNN that balances efficiency and expressiveness through subgraph sampling and Structural Encodings (SEs). By leveraging walk-based node centrality measures, HyMN effectively reduces subgraph sizes while enhancing discriminative power and maintaining computational feasibility."
@@ -30,7 +56,7 @@
 -
   month: 7
   year: 2024
-  title: "Panel: 'The future and challenges of Graph Learning'"
+  title: "Panel – The future and challenges of Graph Learning"
   venue: "Graph Learning Social @ ICML 2024 (Panelist)"
   link: https://x.com/maxthiessen_ml/status/1816104205314097286
   tldr: "I took part as a panelist at ICML 2024 Graph Learning Social's panel to discuss on the future and challenges related to Machine Learning on graphs."
@@ -58,7 +84,7 @@
 -
   month: 3
   year: 2023
-  title: "Lecture: 'Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks'"
+  title: "Lecture – Pack your subgraphs: A journey into subgraphs for powerful Graph Neural Networks"
   venue: Course on Geometric Deep Learning at Oxford University – Lecture
   link: https://twitter.com/mmbronstein/status/1633062949282541569
   slides: https://drive.google.com/file/d/1nM6eySsxjmnFtburRhqjQ1gw09o5iO7P/view?usp=sharing

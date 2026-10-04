@@ -1,7 +1,7 @@
 -
   month: 9
   year: 2026
-  text: "Just gave an invited talk at the beautiful CIRM workshop <a href='https://conferences.cirm-math.fr/3653.html'>'Machine Learning and Signal Processing on Graphs'</a>: 'Toward Reliable Language Models: Structure-Aware Learning on Computational Traces'. Slides are available <a href='https://docs.google.com/presentation/d/e/2PACX-1vQFUJYNVafsJ4CRgKfpEgsoYeiZh_yYgpukmaJkbfJ_uOtQhgMWu6_ekAmdrT6x4bDvm2pJgRGBtO5v/pub?start=false&loop=false&delayms=3000'>here</a>."
+  text: "Just gave an invited talk at the beautiful CIRM workshop <a href='https://conferences.cirm-math.fr/3653.html'>'Machine Learning and Signal Processing on Graphs'</a>. I covered our works on learning from LLM computational traces including those in our recent substack <a href='https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the'>blogpost</a> as well as recent follow-ups like UniProbe. Slides <a href='https://docs.google.com/presentation/d/e/2PACX-1vQFUJYNVafsJ4CRgKfpEgsoYeiZh_yYgpukmaJkbfJ_uOtQhgMWu6_ekAmdrT6x4bDvm2pJgRGBtO5v/pub?start=false&loop=false&delayms=3000'>here</a>."
 -
   month: 9
   year: 2026

@@ -1,7 +1,43 @@
+-
+  month: 9
+  year: 2026
+  text: "Just gave an invited talk at the beautiful CIRM workshop <a href='https://conferences.cirm-math.fr/3653.html'>'Machine Learning and Signal Processing on Graphs'</a>: 'Toward Reliable Language Models: Structure-Aware Learning on Computational Traces'. Slides are available <a href='https://docs.google.com/presentation/d/e/2PACX-1vQFUJYNVafsJ4CRgKfpEgsoYeiZh_yYgpukmaJkbfJ_uOtQhgMWu6_ekAmdrT6x4bDvm2pJgRGBtO5v/pub?start=false&loop=false&delayms=3000'>here</a>."
+-
+  month: 9
+  year: 2026
+  text: "With the new preprint <a href='https://arxiv.org/abs/2609.32833'>'Permutation-Equivariant Flow Matching for Alignment-Free Neural Weight Generation'</a>, we generate neural network weights! We do that with a flow-matching model whose velocity field is a permutation-equivariant Graph Meta Network, so it learns directly from independently trained networks, with no neuron alignment needed and significantly improving on generation novelty and sample efficiency."
+-
+  month: 8
+  year: 2026
+  text: "New preprint out: <a href='https://arxiv.org/abs/2608.10835'>'UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations'</a>. We bring structure-aware learning on computational traces to vision-language models to detect hallucinated generations and mitigate the related errors."
+-
+  month: 7
+  year: 2026
+  text: "<a href='https://arxiv.org/abs/2512.04475'>'GraphBench: Next-generation graph learning benchmarking'</a> was presented as an <b>oral</b> at the ICML 2026 Workshop on Graph Foundation Models, where it was also the <b>Best Paper Award runner-up</b>! Check out the benchmark <a href='https://graphbench.github.io/website/'>here</a>."
+-
+  month: 7
+  year: 2026
+  text: "<a href='https://arxiv.org/abs/2511.10234'>'Lost in Serialization: Invariance and Generalization of LLM Graph Reasoners'</a>, the outcome of my LOGML 2025 project, has also been accepted and presented at the ICML 2026 Workshop on Graph Foundation Models :)"
+-
+  month: 4
+  year: 2026
+  text: "New <a href='https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the'>blogpost</a> 'Detecting LLM Misbehaviors from the Inside Out with Deep Learning on Structured Data', coauthored with Guy Bar-Shalom and Haggai Maron. It covers latest works on structure-aware learning from LLM computational traces for detecting LLM failure modes."
+-
+  month: 3
+  year: 2026
+  text: "Just gave an invited talk at the <a href='https://tuebingen.ellis.eu/events/ellis-institute-tubingen-scientific-symposium-2026'>ELLIS Institute Tübingen Scientific Symposium 2026</a>: 'Structure-Aware Learning: From Graph Neural Networks to reliable Foundation Models' :) Nice occasion to cover my most salient PhD and Postdoc work within a coherent narrative."
+-
+  month: 1
+  year: 2026
+  text: "Two more papers accepted at ICLR 2026: <a href='https://arxiv.org/abs/2509.24472'>'FS-KAN: Permutation Equivariant Kolmogorov-Arnold Networks via Function Sharing'</a> and <a href='https://arxiv.org/abs/2510.02565'>'On the Expressive Power of GNN Derivatives'</a>."
 -  
   month: 01
   year: 2026
   text: "<a href='https://arxiv.org/abs/2509.24770'>'Neural Message-Passing on Attention Graphs for Hallucination Detection'</a> has been accepted at ICLR 2026 :) See you in Rio later this year!"
+-
+  month: 12
+  year: 2025
+  text: "New preprint out: <a href='https://arxiv.org/abs/2512.04475'>'GraphBench: Next-generation graph learning benchmarking'</a>. A benchmark suite for graph learning spanning diverse domains and tasks, with standardised evaluation protocols. Happy to see this finally out! This is the result of a broad, joint effort following our previous position paper."
 -  
   month: 11
   year: 2025

@@ -9,6 +9,21 @@
 #   thumbnail: ./assets/thumbnails/elph.png
 #   comment: 
 #   lead: True
+#   show: True
+-
+  title: "Learning Cross-Model Activation Alignments with Explicit Many-to-Many Layer Maps"
+  authors: Alina Sudakov*, Guy Bar-Shalom*, Fabrizio Frasca+, Haggai Maron+
+  abstract: "LLMs are released at a rapid pace, raising a natural question: how do two independently trained models relate, both in which layers correspond and in how features transform between them? We study this by learning an activation alignment, a map from a source model's layerwise activations to a target's. Our method, MATCHA, factors this map into a layer map, whose output is an explicit target-by-source matrix that can be extracted and inspected, and a layer-shared feature map between hidden spaces. Most of prior work fixes the layer correspondence in advance, pairing layers at roughly the same relative depth; in contrast, we learn both factors jointly from prompts. Across 42 pairs of seven models spanning three different families, MATCHA reconstructs the target's activations more faithfully and improves retrieval-based metrics substantially, w.r.t. previous approaches. The recovered maps are broadly monotone in depth but, in contrast with most previous approaches, are consistently many-to-many: each target layer draws on a band of source layers. Our alignments also enable transfer of activation-space interventions, allowing steering vectors and probes developed for one model to transfer to another."
+  # link: https://arxiv.org/abs/XXXX.XXXXX
+  thumbnail: ./assets/thumbnails/matcha.png
+  lead: True
+  show: True
+-
+  title: "Gray-Box Hallucination Detection in LLMs with Token Identities"
+  authors: Shaked Goldshtein, Yitzchak Grunbaum, Fabrizio Frasca, Guy Bar-Shalom, Haggai Maron
+  abstract: "Large language models often produce fluent but factually incorrect output. Gray-box detectors identify such hallucinations from the token-probability statistics emitted during generation, avoiding the need for white-box access to hidden states that frontier models do not provide. These detectors, however, typically rely only on probability-derived representations and ignore the identities of the candidate tokens. They can therefore observe how uncertain the model is, but not what it is uncertain about. Consequently, they cannot distinguish between a model that is torn between \"big\" and \"small\" and one that is torn between \"big\" and \"huge\" when the two pairs receive the same probability distribution. We introduce GURI (Gray-box Uncertainty Representations with Identity), a lightweight gray-box hallucination detector that combines candidate-token probabilities with per-token vector identifiers. This exposes which alternatives the model considered while preserving the accessibility and transferability of the gray-box setting. Across three open-weight models and three question-answering benchmarks, GURI increases mean test ROC-AUC from 72.09% to 79.09% over a probability-only baseline. On the closed-source GPT-4.1 model, mean ROC-AUC increases from 67.39% to 71.84%. Among the three open-weight models, GURI outperforms transferred probability-only baseline in 17 of 18 directed cross-model transfers without fine-tuning. For the three open-weight models, cross-dataset transfer between HotpotQA and TriviaQA with the model held fixed improves mean ROC-AUC over transferred LOS-Net by 3.76 points."
+  # link: https://arxiv.org/abs/XXXX.XXXXX
+  lead: False
 -
   title: "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations"
   authors: Dvir Samuel, Guy Bar-Shalom, Fabrizio Frasca, Ethan Fetaya, Yftah Ziser, Gal Chechik, Haggai Maron
@@ -39,6 +54,7 @@
   thumbnail: ./assets/thumbnails/charm.png
   venue: ICLR 2026
   lead: True
+  show: True
   post: https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the
   code: https://github.com/Noired/charm
 - 
@@ -49,6 +65,7 @@
   link: https://arxiv.org/abs/2511.10234
   thumbnail: ./assets/thumbnails/lost.png
   lead: True
+  show: True
 -
   title: "FS-KAN: Permutation Equivariant Kolmogorov-Arnold Networks via Function Sharing"
   authors: Ran Elbaz, Guy Bar-Shalom, Yam Eitan, Fabrizio Frasca, Haggai Maron
@@ -72,6 +89,7 @@
   link: https://arxiv.org/abs/2510.00296
   code: https://github.com/BarSGuy/ACT-ViT
   lead: True
+  show: True
   post: https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the
 -
   title: "Understanding and Improving Laplacian Positional Encodings For Temporal GNNs"
@@ -89,6 +107,7 @@
   link: https://arxiv.org/abs/2503.14043
   code: https://github.com/BarSGuy/LLM-Output-Signatures-Network
   lead: True
+  show: True
   post: https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the
 -
   title: "Position: Graph Learning Will Lose Relevance Due To Poor Benchmarks"
@@ -107,6 +126,7 @@
   link: https://arxiv.org/abs/2501.03113
   code: https://github.com/jks17/HyMN/
   lead: True
+  show: True
 -
   title: "Towards Foundation Models on Graphs: An Analysis on Cross-Dataset Transfer of Pretrained GNNs"
   authors: Fabrizio Frasca, Fabian Jogl, Moshe Eliasof, Matan Ostrovsky, Carola-Bibiane Schönlieb, Thomas Gärtner, Haggai Maron
@@ -177,6 +197,7 @@
   video: https://www.youtube.com/watch?v=M5owHERuVcE
   thumbnail: ./assets/thumbnails/sun.png
   comment: Oral (1.7% acceptance rate)
+  show: True
   lead: True
 -
   title: Accurate and Highly Interpretable Prediction of Gene Expression from Histone Modifications
@@ -198,6 +219,7 @@
   video: https://www.youtube.com/watch?v=VYZog7kbXks
   thumbnail: ./assets/thumbnails/esan.png
   comment: Spotlight (5% acceptance rate)
+  show: True
   lead: True
 -
   title: Improving Graph Neural Network Expressivity via Subgraph Isomorphism Counting
@@ -219,6 +241,7 @@
   post: https://towardsdatascience.com/a-new-computational-fabric-for-graph-neural-networks-280ea7e3ed1a
   video: https://www.youtube.com/watch?v=MTQGNVTn9lQ
   thumbnail: ./assets/thumbnails/cwn.png
+  show: True
   lead: True
 -
   title: "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks"

@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Time
+title: News
 ---
-# Timeline
+# News
+
+<hr>
 
 {% include timeline_complete.html %}

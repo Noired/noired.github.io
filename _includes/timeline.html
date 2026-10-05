@@ -1,5 +1,5 @@
 {% for new in site.data.news limit:5 %}
-<div style="display:flex;gap:14px;margin-bottom:10px;line-height:1.45">
+<div style="display:flex;gap:14px;margin-bottom:20px">
 	<span style="flex:0 0 4.5em;color:#777;font-variant-numeric:tabular-nums">
 		{{new.year}}/{{ new.month | prepend: '0' | slice: -2, 2 }}
 	</span>

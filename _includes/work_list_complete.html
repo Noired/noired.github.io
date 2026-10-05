@@ -1,11 +1,7 @@
-<p style="font-size:12px;margin-bottom:5px"> (* indicates equal contribution) </p>
-<hr>
 {% for work in site.data.works %}
-<p style="font-size:16px;margin-bottom:5px">
-	<b>{{work.title}}</b>
-</p>
+<p class="entry-title">{{work.title}}</p>
 <p style="margin-bottom:5px">
-	{{work.authors | replace: "Fabrizio Frasca", "<u>Fabrizio Frasca</u>"}}
+	{{work.authors | replace: "Fabrizio Frasca", "<u><i>Fabrizio Frasca</i></u>" | replace: "+", "<sup style='font-size:0.75em;line-height:0'>†</sup>"}}
 </p>
 {% if work.venue or work.comment %}
 <p style="margin-bottom:5px">

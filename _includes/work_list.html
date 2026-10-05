@@ -1,18 +1,16 @@
-<p style="font-size:12px;margin-bottom:20px">
-	(<b>*</b> indicates equal contribution; see the <a href="{{ "/works" | relative_url }}">complete list</a>)
+<p style="font-size:14px;margin-bottom:20px">
+	(<b>*</b> indicates equal contribution, <b>&dagger;</b> equal supervision; see the <a href="{{ "/works" | relative_url }}">complete list</a>)
 </p>
-{% for work in site.data.works %}
-{% if work.lead %}
+{% assign selected = site.data.works | where_exp: "w", "w.show" %}
+{% for work in selected limit:8 %}
 <div style="display:flex;flex-wrap:wrap;gap:10px 30px;margin-bottom:20px">
 	{% if work.thumbnail %}
 	<img style="flex:0 0 180px;width:180px;align-self:flex-start" src="{{work.thumbnail | relative_url}}" alt="Thumbnail for {{work.title | escape}}" />
 	{% endif %}
 	<div style="flex:1 1 300px;min-width:0">
-		<p style="font-size:16px;margin-bottom:5px">
-			<b>{{work.title}}</b>
-		</p>
+		<p class="entry-title">{{work.title}}</p>
 		<p style="margin-bottom:5px">
-			{{work.authors | replace: "Fabrizio Frasca", "<u>Fabrizio Frasca</u>"}}
+			{{work.authors | replace: "Fabrizio Frasca", "<u><i>Fabrizio Frasca</i></u>" | replace: "+", "<sup style='font-size:0.75em;line-height:0'>†</sup>"}}
 		</p>
 		{% if work.venue or work.comment %}
 		<p style="margin-bottom:5px">
@@ -35,5 +33,4 @@
 	</div>
 </div>
 <hr>
-{% endif %}
 {% endfor %}

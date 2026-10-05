@@ -1,42 +1,35 @@
 <header>
-  
-  <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
 
-  <!-- <hr> -->
+  {% if site.logo and page.url != "/picture/" %}
+    <a href="{{ "/picture/" | relative_url }}" title="About this picture..."><img src="{{site.logo | relative_url}}" alt="Illustration of Fabrizio riding a scrambler motorbike" /></a>
 
-  {% if site.logo %}
-    <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+    <p class="side-contact" style="margin:10px 0 4px">
+      <a style="text-decoration:none" href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_id }}" title="Google Scholar"><span class="icon icon--scholar">{% include icon-scholar.svg %}</span></a>
+      {% if site.linkedin_username %}<a style="text-decoration:none" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span></a>{% endif %}
+      {% if site.email_user %}<a id="mail-icon" style="text-decoration:none" title="Email"><span class="icon icon--email">{% include icon-email.svg %}</span></a>{% endif %}
+      <!-- <a style="text-decoration:none" href="https://github.com/{{ site.github_username }}" title="GitHub"><span class="icon icon--github">{% include icon-github.svg %}</span></a> -->
+      <!-- {% if site.twitter_username %}<a style="text-decoration:none" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>{% endif %} -->
+    </p>
+    {% if site.email_user %}
+      <p class="side-contact" style="font-size:13px;margin:0 0 12px">
+        {{ site.email_user }} (at) {{ site.email_domain }}
+      </p>
+      <script>
+        document.getElementById("mail-icon").href =
+          "mailto:" + "{{ site.email_user }}" + "@" + "{{ site.email_domain }}";
+      </script>
+    {% endif %}
+
   {% endif %}
 
   <hr>
 
-  <h2 style="text-align:center">
-    <a href="{{ "/works" | relative_url }}">{{ "Works" | escape }}</a>
-  </h2>
-  <h2 style="text-align:center">
-    <a href="{{ "/talks" | relative_url }}">{{ "Talks" | escape }}</a>
-  </h2>
-  <h2 style="text-align:center">
-    <a href="{{ "/time" | relative_url }}">{{ "Timeline" | escape }}</a>
-  </h2>
-  <h2 style="text-align:center">
-    <a href="{{ "/assets/CV_early_2026.pdf" | relative_url }}">{{ "CV" | escape }}</a>
-    <!-- <span style="font-size: 0.6em;">{{ " (updated 2024)" | escape }}</span></a> -->
-  </h2>
-  <h2 style="text-align:center">
-    <a href="{{ "/me" | relative_url }}">{{ "Me" | escape }}</a>
-  </h2>
-  <h2 style="text-align:center">
-    <!-- <a style="text-align:center;color:#f4f4f4" href="{{ "/rabbithole" | relative_url }}">{{ "(???)" | escape }}</a> -->
-    <a style="text-align:center;color:#ffffff" href="{{ "/rabbithole" | relative_url }}">{{ "(???)" | escape }}</a>
-  </h2>
+  <nav class="side-nav">
+    {% if page.url == "/" %}<a href="{{ "/" | relative_url }}" class="current">Home</a>{% else %}<a href="{{ "/" | relative_url }}">&larr; Home</a>{% endif %}    <a href="{{ "/works" | relative_url }}"{% if page.url contains "/works" %} class="current"{% endif %}>Publications</a>
+    <a href="{{ "/talks" | relative_url }}"{% if page.url contains "/talks" %} class="current"{% endif %}>Talks</a>
+    <a href="{{ "/time" | relative_url }}"{% if page.url contains "/time" %} class="current"{% endif %}>News</a>
+    <a href="{{ "/assets/CV_early_2026.pdf" | relative_url }}">Curriculum Vitae</a>
+    <a class="secret" href="{{ "/rabbithole" | relative_url }}">[  r a b b i t h o l e  ]</a>
+  </nav>
 
-  <hr>
-
-  <p style="text-align:center">
-    <a style="text-decoration:none" href="https://github.com/{{ site.github_username }}"><span class="icon icon--github">{% include icon-github.svg %}</span></a>
-    <a style="text-decoration:none" href="https://twitter.com/{{ site.twitter_username }}"><span class="icon icon--twitter">{% include icon-twitter.svg %}</span></a>
-    <a style="text-decoration:none" href="https://scholar.google.com/citations?hl=en&user={{ site.google_scholar_id }}"><span class="icon icon--scholar">{% include icon-scholar.svg %}</span></a>
-  </p>
-
-</header> 
+</header>

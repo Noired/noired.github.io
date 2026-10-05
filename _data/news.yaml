@@ -1,31 +1,39 @@
 -
-  month: 9
+  month: 10
   year: 2026
-  text: "Just gave an invited talk at the beautiful CIRM workshop <a href='https://conferences.cirm-math.fr/3653.html'>'Machine Learning and Signal Processing on Graphs'</a>. I covered our works on learning from LLM computational traces including those in our recent substack <a href='https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the'>blogpost</a> as well as recent follow-ups like UniProbe. Slides <a href='https://docs.google.com/presentation/d/e/2PACX-1vQFUJYNVafsJ4CRgKfpEgsoYeiZh_yYgpukmaJkbfJ_uOtQhgMWu6_ekAmdrT6x4bDvm2pJgRGBtO5v/pub?start=false&loop=false&delayms=3000'>here</a>."
+  text: "In January 2027 I will join <a href='https://cispa.de'>CISPA</a> as Faculty and start my own research group! I am hiring a PhD student and a postdoc: see <a href='/join'>here</a> :)"
 -
   month: 9
   year: 2026
-  text: "With the new preprint <a href='https://arxiv.org/abs/2609.32833'>'Permutation-Equivariant Flow Matching for Alignment-Free Neural Weight Generation'</a>, we generate neural network weights! We do that with a flow-matching model whose velocity field is a permutation-equivariant Graph Meta Network, so it learns directly from independently trained networks, with no neuron alignment needed and significantly improving on generation novelty and sample efficiency."
+  text: "Invited talk at the CIRM workshop <a href='https://conferences.cirm-math.fr/3653.html'>'Machine Learning and Signal Processing on Graphs'</a>, on learning from LLM computational traces. Slides <a href='https://docs.google.com/presentation/d/e/2PACX-1vQFUJYNVafsJ4CRgKfpEgsoYeiZh_yYgpukmaJkbfJ_uOtQhgMWu6_ekAmdrT6x4bDvm2pJgRGBtO5v/pub?start=false&loop=false&delayms=3000'>here</a>."
+-
+  month: 9
+  year: 2026
+  text: "New preprint: <a href='https://arxiv.org/abs/2609.32833'>'Permutation-Equivariant Flow Matching for Alignment-Free Neural Weight Generation'</a>. We generate neural network weights with an equivariant flow-matching model."
 -
   month: 8
   year: 2026
-  text: "New preprint out: <a href='https://arxiv.org/abs/2608.10835'>'UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations'</a>. We bring structure-aware learning on computational traces to vision-language models to detect hallucinated generations and mitigate the related errors."
+  text: "Our workshop <a href='https://artifactsasdata.org/'>'Neural Network Artifacts as a New Data Modality'</a> has been accepted at NeurIPS 2026 in Paris! A day on treating weights, activations, attention maps and other artifacts as data to learn from."
+-
+  month: 8
+  year: 2026
+  text: "New preprint: <a href='https://arxiv.org/abs/2608.10835'>UniProbe</a>, a token-level hallucination detector for vision-language models that learns from their computational traces."
 -
   month: 7
   year: 2026
-  text: "<a href='https://arxiv.org/abs/2512.04475'>'GraphBench: Next-generation graph learning benchmarking'</a> was presented as an <b>oral</b> at the ICML 2026 Workshop on Graph Foundation Models, where it was also the <b>Best Paper Award runner-up</b>! Check out the benchmark <a href='https://graphbench.github.io/website/'>here</a>."
+  text: "<a href='https://arxiv.org/abs/2512.04475'>GraphBench</a> was an <b>oral</b> and the <b>Best Paper Award runner-up</b> at the ICML 2026 Workshop on Graph Foundation Models! The benchmark is <a href='https://graphbench.github.io/website/'>here</a>."
 -
   month: 7
   year: 2026
-  text: "<a href='https://arxiv.org/abs/2511.10234'>'Lost in Serialization: Invariance and Generalization of LLM Graph Reasoners'</a>, the outcome of my LOGML 2025 project, has also been accepted and presented at the ICML 2026 Workshop on Graph Foundation Models :)"
+  text: "<a href='https://arxiv.org/abs/2511.10234'>'Lost in Serialization'</a>, the outcome of my LOGML 2025 project, was presented at the ICML 2026 Workshop on Graph Foundation Models :)"
 -
   month: 4
   year: 2026
-  text: "New <a href='https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the'>blogpost</a> 'Detecting LLM Misbehaviors from the Inside Out with Deep Learning on Structured Data', coauthored with Guy Bar-Shalom and Haggai Maron. It covers latest works on structure-aware learning from LLM computational traces for detecting LLM failure modes."
+  text: "New <a href='https://ffabffrasca.substack.com/p/detecting-llm-misbehaviors-from-the'>blogpost</a> with Guy Bar-Shalom and Haggai Maron: 'Detecting LLM Misbehaviors from the Inside Out with Deep Learning on Structured Data'."
 -
   month: 3
   year: 2026
-  text: "Just gave an invited talk at the <a href='https://tuebingen.ellis.eu/events/ellis-institute-tubingen-scientific-symposium-2026'>ELLIS Institute Tübingen Scientific Symposium 2026</a>: 'Structure-Aware Learning: From Graph Neural Networks to reliable Foundation Models' :) Nice occasion to cover my most salient PhD and Postdoc work within a coherent narrative."
+  text: "Invited talk at the <a href='https://tuebingen.ellis.eu/events/ellis-institute-tubingen-scientific-symposium-2026'>ELLIS Institute Tübingen Scientific Symposium 2026</a>: 'Structure-Aware Learning: From Graph Neural Networks to reliable Foundation Models'."
 -
   month: 1
   year: 2026

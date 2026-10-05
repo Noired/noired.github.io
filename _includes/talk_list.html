@@ -2,6 +2,9 @@
 <p style="font-size:16px;margin-bottom:0px">
 	<b>{{talk.title}}</b>
 </p>
+{% if talk.kind %}
+   <p class="kind-label">{{talk.kind}}</p>
+{% endif %}
 <p style="font-size:16px;margin-bottom:5px">
 	{% if talk.link %}
 		<a href='{{talk.link}}'>{{talk.venue}}</a>

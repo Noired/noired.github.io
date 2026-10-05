@@ -4,6 +4,8 @@ title: Me
 ---
 # Me
 
+<hr>
+
 Do you really want to know more about me?
 
 So, I was born and raised in Modica, a small town in the southern tip of Sicily. What is this place known for? Mostly [Baroque](https://en.wikipedia.org/wiki/Baroque) architecture and chocolate. Yes. We make a very [peculiar kind of chocolate](https://en.wikipedia.org/wiki/Cioccolato_di_Modica) produced by kneading raw cocoa and sugar at a low temperature (around 40˚C).

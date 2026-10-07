@@ -6,15 +6,15 @@ title: Home
 # _{{ site.title | default: site.github.repository_name }}_
 
 <p style="margin-top:-12px;margin-bottom:12px;color:#333">
-	<span style="white-space:nowrap"><b>Postdoc</b> &middot; Technion</span>
+	<span style="white-space:nowrap"><b>Postdoc</b> &middot; <a href="https://ece.technion.ac.il/">Technion</a></span>
 	<span style="color:#bbb;margin:0 6px">|</span>
-	<b>Incoming Faculty</b> &middot; CISPA Helmholtz Center for Information Security (Jan 2027)
+	<b>Incoming Faculty</b> &middot; <a href="https://cispa.de/en">CISPA</a> Helmholtz Center for Information Security (Jan 2027)
 </p>
 
 <hr>
 
 <div class="announce">
-	<p class="announce-title">Hiring: two PhD students and a postdoc</p>
+	<p class="announce-title">Hiring a PhD student and a postdoc</p>
 	<p>I am building a research group at CISPA on machine learning for structured data and reliable foundation models.</p>
 	<a class="cta" href="{{ "/join" | relative_url }}">How to join &rarr;</a>
 </div>

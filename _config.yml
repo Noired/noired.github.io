@@ -22,7 +22,7 @@ title: Fabrizio Frasca
 email_user: fabriziof
 email_domain: campus.technion.ac.il
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal website has been realised through <a href="https://jekyllrb.com/" style="text-decoration:underline;">Jekyll</a> and <a href="https://pages.github.com/" style="text-decoration:underline;">Github Pages</a>. The theme &mdash; slightly customised &mdash; is by <a href="https://github.com/orderedlist" style="text-decoration:underline;">orderedlist</a>. Drop me a message if you'd fancy a chat! 
+  My personal website has been realised through <a href="https://jekyllrb.com/" style="text-decoration:underline;">Jekyll</a> and <a href="https://pages.github.com/" style="text-decoration:underline;">Github Pages</a>. Original theme is by <a href="https://github.com/orderedlist" style="text-decoration:underline;">orderedlist</a>, but it has been customised quite a bit.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ffabffrasca

@@ -28,8 +28,9 @@
     {% if page.url == "/" %}<a href="{{ "/" | relative_url }}" class="current">Home</a>{% else %}<a href="{{ "/" | relative_url }}">&larr; Home</a>{% endif %}    <a href="{{ "/works" | relative_url }}"{% if page.url contains "/works" %} class="current"{% endif %}>Publications</a>
     <a href="{{ "/talks" | relative_url }}"{% if page.url contains "/talks" %} class="current"{% endif %}>Talks</a>
     <a href="{{ "/time" | relative_url }}"{% if page.url contains "/time" %} class="current"{% endif %}>News</a>
-    <a href="{{ "/assets/CV_early_2026.pdf" | relative_url }}">Curriculum Vitae</a>
-    <a class="secret" href="{{ "/rabbithole" | relative_url }}">[  r a b b i t h o l e  ]</a>
+    <!-- <a href="{{ "/assets/CV_early_2026.pdf" | relative_url }}">Curriculum Vitae</a> -->
+    <a href="{{ "/assets/CV_early_2026.pdf" | relative_url }}">Curriculum Vitae <span style="font-size:13px;font-weight:400;color:#666">(early 2026)</span></a>
+    <!-- <a class="secret" href="{{ "/rabbithole" | relative_url }}">[  r a b b i t h o l e  ]</a> -->
   </nav>
 
 </header>

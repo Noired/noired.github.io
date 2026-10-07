@@ -14,6 +14,4 @@ Yes, that is me on my scrambler, a Fantic Caballero!
 
 <i>In fact, I like to think of research this way: a wide stretch of land to explore, with no fixed road, where the journey matters as much as the destination and where it is definitely worth having fun together along the way.</i>
 
-P.S. Not serious enough for a PI? Maybe. I drew this in comic style because I love illustration, and because I would rather not take myself too seriously.
-
-P.P.S. There are a couple of easter eggs hidden in it; I will let you find them.
+P.S. Not serious enough for a PI? Well, I drew this in comic style because I love illustration, and because I would rather not take myself too seriously.

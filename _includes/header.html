@@ -25,7 +25,9 @@
   <hr>
 
   <nav class="side-nav">
-    {% if page.url == "/" %}<a href="{{ "/" | relative_url }}" class="current">Home</a>{% else %}<a href="{{ "/" | relative_url }}">&larr; Home</a>{% endif %}    <a href="{{ "/works" | relative_url }}"{% if page.url contains "/works" %} class="current"{% endif %}>Publications</a>
+    {% if page.url == "/" %}<a href="{{ "/" | relative_url }}" class="current">Home</a>{% else %}<a href="{{ "/" | relative_url }}">&larr; Home</a>{% endif %}  
+    <a href="{{ "/join" | relative_url }}"{% if page.url contains "/join" %} class="current"{% endif %}><i>Join</i></a>  
+    <a href="{{ "/works" | relative_url }}"{% if page.url contains "/works" %} class="current"{% endif %}>Publications</a>
     <a href="{{ "/talks" | relative_url }}"{% if page.url contains "/talks" %} class="current"{% endif %}>Talks</a>
     <a href="{{ "/time" | relative_url }}"{% if page.url contains "/time" %} class="current"{% endif %}>News</a>
     <!-- <a href="{{ "/assets/CV_early_2026.pdf" | relative_url }}">Curriculum Vitae</a> -->

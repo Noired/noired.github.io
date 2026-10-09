@@ -18,8 +18,8 @@ title: Home
 	<p>I am building a research group at CISPA on machine learning for structured data and reliable foundation models.</p>
 	<a class="cta" href="{{ "/join" | relative_url }}">How to join &rarr;</a>
 </div>
-<!-- 
-Hi! I am Fabrizio. I develop principled machine learning methods for structured data: sets, graphs, sequences, and their combinations. I care about models that respect the symmetries of their data, are provably expressive, and scale. Increasingly, I apply these ideas to the computational traces of foundation models, such as activations and attention maps, which I treat as structured data in their own right. The goal is to make these systems more reliable, for example by detecting hallucinations from a model’s internals.
+
+<!-- Hi! I am Fabrizio. I develop principled machine learning methods for structured data: sets, graphs, sequences, and their combinations. I care about models that respect the symmetries of their data, are provably expressive, and scale. Increasingly, I apply these ideas to the computational traces of foundation models, such as activations and attention maps, which I treat as structured data in their own right. The goal is to make these systems more reliable, for example by detecting hallucinations from a model’s internals.
 
 I am a Postdoctoral Fellow at Technion with Prof. Haggai Maron, and will join CISPA as Faculty in January 2027. Before that, I obtained my PhD at Imperial College London with Prof. Michael Bronstein, working on expressive Graph Neural Networks, and was a Machine Learning Researcher at Twitter Cortex (2019–2023), which I joined through the acquisition of Fabula AI. I also co-founded and co-organise GLOW, a monthly reading group on graph learning. -->
 

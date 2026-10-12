@@ -2,6 +2,8 @@
 layout: default
 title: Join
 permalink: /join/
+image: /assets/join-preview.png
+description: PhD and postdoc positions in my new research group at CISPA, starting 2027
 ---
 
 # Join the group

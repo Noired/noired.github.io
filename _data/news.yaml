@@ -1,6 +1,22 @@
 -
   month: 10
   year: 2026
+  text: "New preprint out! We propose <a href='https://arxiv.org/abs/2610.22723'>LEMON</a>, an equivariant graph-based model that monitors LLMs for hallucinations and jailbreaks from their attention maps, transferring zero-shot to new LLMs."
+-
+  month: 10
+  year: 2026
+  text: "<a href='https://arxiv.org/abs/2610.09058'>MATCHA</a> is out :) We learn activation alignments between different LLMs with <i>explicit many-to-many layer maps</i>, letting steering vectors and probes transfer from one model to another."
+-
+  month: 10
+  year: 2026
+  text: "In the new preprint <a href='https://arxiv.org/abs/2610.18471'>'Graph Metanetworks for Transformer Based Language Models'</a> we characterise the weight-space symmetries of decoder-only LLMs at a fine-grained level of detail, marking a step forward in applying weight-space models to transformer-based language models."
+-
+  month: 10
+  year: 2026
+  text: "New preprint out: <a href='https://arxiv.org/abs/2610.19996'>'Gray-Box Hallucination Detection in LLMs with Token Identities'</a>. We propose a gray-box hallucination detector which pairs up next-token probability distributions with token identites, to better qualify and represent the intrinsic uncertainty in an LLM response."
+-
+  month: 10
+  year: 2026
   text: "In January 2027 I will join <a href='https://cispa.de'>CISPA</a> as Tenure-Track Faculty and start my own research group! I am hiring a PhD student and a postdoc: see <a href='/join'>here</a> :)"
 -
   month: 9
@@ -73,7 +89,7 @@
 -
   month: 7
   year: 2025
-  text: "LOGML 2025 is over – what an experience it has been! Had the luck to mentor five amazing student on my project, where we explored the invariances, robustness and generalisation abilities of LLMs for graph reasoning. Met delightful people and strong researchers, and had a lot of fun."
+  text: "LOGML 2025 is over – what an experience it has been! Had the luck to mentor five amazing students on my project, where we explored the invariances, robustness and generalisation abilities of LLMs for graph reasoning. Met delightful people and strong researchers, and had a lot of fun."
 -
   month: 7
   year: 2025
@@ -81,7 +97,7 @@
 -
   month: 6
   year: 2025
-  text: "Our <a href='https://substack.com/inbox/post/166241782'>first GLOW blogpost</a> is out on Substack. Was really a great experience to lead this effort. We summarise thoughts and opinions on the past, present and future of Graph Learning reaserch as emerging from our dedicated GLOW sessions."
+  text: "Our <a href='https://substack.com/inbox/post/166241782'>first GLOW blogpost</a> is out on Substack. Was really a great experience to lead this effort. We summarise thoughts and opinions on the past, present and future of Graph Learning research as emerging from our dedicated GLOW sessions."
 - 
   month: 5
   year: 2025
@@ -153,7 +169,7 @@
 -
   month: 3
   year: 2024
-  text: "I am excited to share I will be spending some time in Vienna! I will be visiting Prof. Thomas Gärtners' Lab at TU Wien. :)"
+  text: "I am excited to share I will be spending some time in Vienna! I will be visiting Prof. Thomas Gärtner's Lab at TU Wien. :)"
 -
   month: 1
   year: 2024
@@ -333,7 +349,7 @@
 -
   month: 10
   year: 2018
-  text: "I am starting a PhD at USI (Università della Svizzera Italiana) advised by Prof. Bronstein. However, I will spend my first 4 months in London visting him at Imperial College London!"
+  text: "I am starting a PhD at USI (Università della Svizzera Italiana) advised by Prof. Bronstein. However, I will spend my first 4 months in London visiting him at Imperial College London!"
 -
   month: 6
   year: 2018
